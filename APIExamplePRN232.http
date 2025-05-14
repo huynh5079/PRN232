@@ -1,0 +1,6 @@
+@APIExamplePRN232_HostAddress = http://localhost:5228
+
+GET {{APIExamplePRN232_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
