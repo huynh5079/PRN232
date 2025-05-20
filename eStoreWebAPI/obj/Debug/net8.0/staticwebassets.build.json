@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "rQvwQCJQ1598BFByumNphNnbT7ifsFqG9zhSYLjcac4=",
+  "Source": "eStoreWebAPI",
+  "BasePath": "_content/eStoreWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
