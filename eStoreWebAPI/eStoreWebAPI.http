@@ -1,6 +1,34 @@
-@eStoreWebAPI_HostAddress = http://localhost:5286
+@eStoreWebAPI_HostAddress = https://localhost:7207
+### Get all
+GET {{eStoreWebAPI_HostAddress}}/api/product
 
-GET {{eStoreWebAPI_HostAddress}}/weatherforecast/
-Accept: application/json
+### Get id 
+GET {{eStoreWebAPI_HostAddress}}/api/product/20
 
+### Add product
+POST {{eStoreWebAPI_HostAddress}}/api/product
+Content-Type: application/json
+
+{
+  "productName": "New Product",
+  "unitPrice": 30.99,
+  "unitsInStock": 120,
+  "categoryId": 1
+}
+
+### Delete product
+DELETE {{eStoreWebAPI_HostAddress}}/api/product/1002
+
+### Update product
+PUT {{eStoreWebAPI_HostAddress}}/api/product/1002
+Content-Type: application/json
+
+{
+  "productId": 1002, 
+  "productName": "Updated Name",
+  "unitPrice": 30.99,
+  "unitsInStock": 120,
+  "categoryId": 1
+}
 ###
+
