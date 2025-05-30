@@ -1,0 +1,6 @@
+@Lab02_ODataBookAPI_HostAddress = http://localhost:5095
+
+GET {{Lab02_ODataBookAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,645 @@
+[
+  {
+    "ContainingType": "Microsoft.AspNetCore.OData.Routing.Controllers.MetadataController",
+    "Method": "GetServiceDocument",
+    "RelativePath": "odata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.OData.ODataServiceDocument",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.metadata=minimal;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;odata.metadata=minimal;IEEE754Compatible=false",
+          "application/json;odata.metadata=minimal;IEEE754Compatible=true",
+          "application/json;odata.metadata=full;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.metadata=full;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.metadata=full;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.metadata=full;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;odata.metadata=full;IEEE754Compatible=false",
+          "application/json;odata.metadata=full;IEEE754Compatible=true",
+          "application/json;odata.metadata=none;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.metadata=none;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.metadata=none;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;odata.metadata=none;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.metadata=none;IEEE754Compatible=false",
+          "application/json;odata.metadata=none;IEEE754Compatible=true",
+          "application/json;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;IEEE754Compatible=false",
+          "application/json;IEEE754Compatible=true",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "odata/"
+  },
+  {
+    "ContainingType": "Microsoft.AspNetCore.OData.Routing.Controllers.MetadataController",
+    "Method": "GetMetadata",
+    "RelativePath": "odata/$metadata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.OData.Edm.IEdmModel",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.metadata=minimal;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;odata.metadata=minimal;IEEE754Compatible=false",
+          "application/json;odata.metadata=minimal;IEEE754Compatible=true",
+          "application/json;odata.metadata=full;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.metadata=full;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.metadata=full;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.metadata=full;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;odata.metadata=full;IEEE754Compatible=false",
+          "application/json;odata.metadata=full;IEEE754Compatible=true",
+          "application/json;odata.metadata=none;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.metadata=none;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.metadata=none;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;odata.metadata=none;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.metadata=none;IEEE754Compatible=false",
+          "application/json;odata.metadata=none;IEEE754Compatible=true",
+          "application/json;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;IEEE754Compatible=false",
+          "application/json;IEEE754Compatible=true",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "odata/$metadata"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Get",
+    "RelativePath": "odata/Books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Get",
+    "RelativePath": "odata/Books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Books"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Post",
+    "RelativePath": "odata/Books",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "Lab02_ODataBookAPI.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Post",
+    "RelativePath": "odata/Books",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "Lab02_ODataBookAPI.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Books"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Get",
+    "RelativePath": "odata/Books({key})",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Books({key})"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Put",
+    "RelativePath": "odata/Books({key})",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "book",
+        "Type": "Lab02_ODataBookAPI.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Books({key})"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Delete",
+    "RelativePath": "odata/Books({key})",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Books({key})"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Get",
+    "RelativePath": "odata/Books/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Get",
+    "RelativePath": "odata/Books/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Books/{key}"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Put",
+    "RelativePath": "odata/Books/{key}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "book",
+        "Type": "Lab02_ODataBookAPI.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Put",
+    "RelativePath": "odata/Books/{key}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "book",
+        "Type": "Lab02_ODataBookAPI.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Books/{key}"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Delete",
+    "RelativePath": "odata/Books/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Delete",
+    "RelativePath": "odata/Books/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Books/{key}"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.BooksController",
+    "Method": "Get",
+    "RelativePath": "odata/Books/$count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Books/$count"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Get",
+    "RelativePath": "odata/Presses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Get",
+    "RelativePath": "odata/Presses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Presses"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Post",
+    "RelativePath": "odata/Presses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "press",
+        "Type": "Lab02_ODataBookAPI.Models.Press",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Post",
+    "RelativePath": "odata/Presses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "press",
+        "Type": "Lab02_ODataBookAPI.Models.Press",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Presses"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Get",
+    "RelativePath": "odata/Presses({key})",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Presses({key})"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Put",
+    "RelativePath": "odata/Presses({key})",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "press",
+        "Type": "Lab02_ODataBookAPI.Models.Press",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Presses({key})"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Delete",
+    "RelativePath": "odata/Presses({key})",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Presses({key})"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Get",
+    "RelativePath": "odata/Presses/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Get",
+    "RelativePath": "odata/Presses/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Presses/{key}"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Put",
+    "RelativePath": "odata/Presses/{key}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "press",
+        "Type": "Lab02_ODataBookAPI.Models.Press",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Put",
+    "RelativePath": "odata/Presses/{key}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "press",
+        "Type": "Lab02_ODataBookAPI.Models.Press",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Presses/{key}"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Delete",
+    "RelativePath": "odata/Presses/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Delete",
+    "RelativePath": "odata/Presses/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Presses/{key}"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.PressesController",
+    "Method": "Get",
+    "RelativePath": "odata/Presses/$count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "odata/Presses/$count"
+  },
+  {
+    "ContainingType": "Lab02_ODataBookAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Lab02_ODataBookAPI.WeatherForecast, Lab02_ODataBookAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.metadata=minimal;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;odata.metadata=minimal;IEEE754Compatible=false",
+          "application/json;odata.metadata=minimal;IEEE754Compatible=true",
+          "application/json;odata.metadata=full;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.metadata=full;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.metadata=full;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.metadata=full;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;odata.metadata=full;IEEE754Compatible=false",
+          "application/json;odata.metadata=full;IEEE754Compatible=true",
+          "application/json;odata.metadata=none;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.metadata=none;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.metadata=none;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;odata.metadata=none;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.metadata=none;IEEE754Compatible=false",
+          "application/json;odata.metadata=none;IEEE754Compatible=true",
+          "application/json;odata.streaming=true;IEEE754Compatible=false",
+          "application/json;odata.streaming=true;IEEE754Compatible=true",
+          "application/json;odata.streaming=false;IEEE754Compatible=false",
+          "application/json;odata.streaming=false;IEEE754Compatible=true",
+          "application/json;IEEE754Compatible=false",
+          "application/json;IEEE754Compatible=true",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

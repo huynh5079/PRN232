@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\controllers\\pressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\controllers\\pressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\service\\pressservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\service\\pressservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\service\\bookservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\service\\bookservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\service\\ipressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\service\\ipressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\models\\press.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\models\\press.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab02_odatabookapi\\lab02_odatabookapi\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4625574C-C257-4B1D-9D26-4DE0409F2419}|Lab02_ODataBookAPI\\Lab02_ODataBookAPI.csproj|solutionrelative:lab02_odatabookapi\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PressesController.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Controllers\\PressesController.cs",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\Controllers\\PressesController.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Controllers\\PressesController.cs",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\Controllers\\PressesController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwDsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:28:24.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:21:31.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PressService .cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Service\\PressService .cs",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\Service\\PressService .cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Service\\PressService .cs",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\Service\\PressService .cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:18:53.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookService .cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Service\\BookService .cs",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\Service\\BookService .cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Service\\BookService .cs",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\Service\\BookService .cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:17:17.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPressService.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Service\\IPressService.cs",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\Service\\IPressService.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Service\\IPressService.cs",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\Service\\IPressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:13:01.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Service\\IBookService.cs",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\Service\\IBookService.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Service\\IBookService.cs",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\Service\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:12:29.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\Program.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Program.cs",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:09:35.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\Models\\Book.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Models\\Book.cs",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:05:14.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\appsettings.json",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\appsettings.json",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-30T01:01:24.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Address.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\Models\\Address.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Models\\Address.cs",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\Models\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:05:02.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Press.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Models\\Press.cs",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\Models\\Press.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Models\\Press.cs",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\Models\\Press.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:04:55.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Data\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "Lab02_ODataBookAPI\\Data\\LibraryContext.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab02_ODataBookAPI\\Lab02_ODataBookAPI\\Data\\LibraryContext.cs",
+              "RelativeToolTip": "Lab02_ODataBookAPI\\Data\\LibraryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:02:11.835Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

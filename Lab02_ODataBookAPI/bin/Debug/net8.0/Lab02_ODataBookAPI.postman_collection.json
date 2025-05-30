@@ -1,0 +1,148 @@
+{
+  "info": {
+    "name": "Lab02_ODataBookAPI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Books",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{Lab02_ODataBookAPI_HostAddress}}/odata/books",
+          "host": [
+            "{{Lab02_ODataBookAPI_HostAddress}}"
+          ],
+          "path": [
+            "odata",
+            "books"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create a Book",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Sample Book\",\n  \"author\": \"John Doe\",\n  \"price\": 123.45,\n  \"pressId\": 1\n}"
+        },
+        "url": {
+          "raw": "{{Lab02_ODataBookAPI_HostAddress}}/odata/books",
+          "host": [
+            "{{Lab02_ODataBookAPI_HostAddress}}"
+          ],
+          "path": [
+            "odata",
+            "books"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete a Book",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "{{Lab02_ODataBookAPI_HostAddress}}/odata/books/1",
+          "host": [
+            "{{Lab02_ODataBookAPI_HostAddress}}"
+          ],
+          "path": [
+            "odata",
+            "books",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update a Book",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"bookId\": 1,\n  \"title\": \"Updated Book\",\n  \"author\": \"Jane Smith\",\n  \"price\": 99.99,\n  \"pressId\": 1\n}"
+        },
+        "url": {
+          "raw": "{{Lab02_ODataBookAPI_HostAddress}}/odata/books/1",
+          "host": [
+            "{{Lab02_ODataBookAPI_HostAddress}}"
+          ],
+          "path": [
+            "odata",
+            "books",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get All Presses",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{Lab02_ODataBookAPI_HostAddress}}/odata/presses",
+          "host": [
+            "{{Lab02_ODataBookAPI_HostAddress}}"
+          ],
+          "path": [
+            "odata",
+            "presses"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create a Press",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Sample Press\",\n  \"category\": \"Tech\",\n  \"address\": {\n    \"city\": \"Hanoi\",\n    \"country\": \"Vietnam\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{Lab02_ODataBookAPI_HostAddress}}/odata/presses",
+          "host": [
+            "{{Lab02_ODataBookAPI_HostAddress}}"
+          ],
+          "path": [
+            "odata",
+            "presses"
+          ]
+        }
+      }
+    }
+  ]
+}

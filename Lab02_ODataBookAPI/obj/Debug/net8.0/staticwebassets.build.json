@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "6vjnorO1LAdeNPIIOmDcbF/Oj8zEc+zaxoAQtR2IWb8=",
+  "Source": "Lab02_ODataBookAPI",
+  "BasePath": "_content/Lab02_ODataBookAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
