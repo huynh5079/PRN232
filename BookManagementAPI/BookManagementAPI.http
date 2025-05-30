@@ -1,0 +1,39 @@
+@BookManagementAPI_HostAddress = https://localhost:7179
+
+### Get all book
+GET https://localhost:{PORT}/odata/Books
+###
+GET https://localhost:{PORT}/odata/Books?$filter=Price gt 50&$orderby=Title desc
+###get by id
+GET https://localhost:{PORT}/odata/Books(1)
+###
+POST https://localhost:{PORT}/odata/Books
+Content-Type: application/json
+{
+  "Title": "example",
+  "Price": 70,
+  "PublisherName": "test01"
+}
+### update
+PUT https://localhost:{PORT}/odata/Books(1)
+Content-Type: application/json
+{
+  "Title": "C# in Depth - Updated",
+  "Price": 64.99,
+  "PublisherName": "Manning"
+}
+###
+PATCH https://localhost:{PORT}/odata/Books(1)
+Content-Type: application/json
+{
+  "Price": 66.99
+}
+### delete
+DELETE https://localhost:{PORT}/odata/Books(1)
+###
+
+###
+
+###
+
+###
