@@ -1,0 +1,11 @@
+@NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress = https://localhost:7223
+
+###
+
+GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts
+
+###
+
+GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/NewsArticles
+
+###
