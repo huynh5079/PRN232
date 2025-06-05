@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
 using DataLayer.Entities;
 
-namespace NguyenManhTanHuynh_SE17D05_A01_BE.Repositories
+namespace DataLayer.Repositories
 {
     public interface IGenericRepository<T> where T : class
     {

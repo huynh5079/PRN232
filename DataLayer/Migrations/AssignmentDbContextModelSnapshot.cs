@@ -49,6 +49,188 @@ namespace DataLayer.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "27dffebf-9ac6-43c3-9f4f-5855394af11e",
+                            CategoryDescription = "Description for category 1 of university news.",
+                            CategoryName = "Category 1",
+                            CreatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1754),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2025, 2, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1758)
+                        },
+                        new
+                        {
+                            Id = "c24b3184-083a-4831-9828-2f93f5ae3f21",
+                            CategoryDescription = "Description for category 2 of university news.",
+                            CategoryName = "Category 2",
+                            CreatedAt = new DateTime(2024, 12, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1763),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2024, 8, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1764)
+                        },
+                        new
+                        {
+                            Id = "2dc87923-74b9-4403-81ea-97ea4c57ca02",
+                            CategoryDescription = "Description for category 3 of university news.",
+                            CategoryName = "Category 3",
+                            CreatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1822),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2024, 11, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1822)
+                        },
+                        new
+                        {
+                            Id = "1d344006-5b28-441b-ac6e-ca159bd49ac0",
+                            CategoryDescription = "Description for category 4 of university news.",
+                            CategoryName = "Category 4",
+                            CreatedAt = new DateTime(2025, 1, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1826),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1827)
+                        },
+                        new
+                        {
+                            Id = "7f9b03b3-ee86-41bc-8f54-5a1afc6d5342",
+                            CategoryDescription = "Description for category 5 of university news.",
+                            CategoryName = "Category 5",
+                            CreatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1830),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2025, 5, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1831)
+                        },
+                        new
+                        {
+                            Id = "32b014f3-ca61-4687-bc62-d305dc29ff5b",
+                            CategoryDescription = "Description for category 6 of university news.",
+                            CategoryName = "Category 6",
+                            CreatedAt = new DateTime(2025, 5, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1835),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2024, 7, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1836)
+                        },
+                        new
+                        {
+                            Id = "007e6d98-387b-4048-ad2f-9bd8f0bc4d74",
+                            CategoryDescription = "Description for category 7 of university news.",
+                            CategoryName = "Category 7",
+                            CreatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1841),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2024, 8, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1842)
+                        },
+                        new
+                        {
+                            Id = "eba490d7-74e5-4d5b-b6dd-771a02e1bb82",
+                            CategoryDescription = "Description for category 8 of university news.",
+                            CategoryName = "Category 8",
+                            CreatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1846),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2024, 11, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1846)
+                        },
+                        new
+                        {
+                            Id = "ca078160-6bc0-49ad-869f-2a6588f35573",
+                            CategoryDescription = "Description for category 9 of university news.",
+                            CategoryName = "Category 9",
+                            CreatedAt = new DateTime(2024, 12, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1850),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2025, 3, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1850)
+                        },
+                        new
+                        {
+                            Id = "0e3788f2-8b0a-47a5-a130-1452972025bd",
+                            CategoryDescription = "Description for category 10 of university news.",
+                            CategoryName = "Category 10",
+                            CreatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1856),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2024, 11, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1857)
+                        },
+                        new
+                        {
+                            Id = "84a628bb-a886-492e-9766-9fc25f17ac9d",
+                            CategoryDescription = "Description for category 11 of university news.",
+                            CategoryName = "Category 11",
+                            CreatedAt = new DateTime(2025, 3, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1862),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1862)
+                        },
+                        new
+                        {
+                            Id = "f99f7276-bbfc-4ab1-9d2a-9cad7bf26ba7",
+                            CategoryDescription = "Description for category 12 of university news.",
+                            CategoryName = "Category 12",
+                            CreatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1866),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1867)
+                        },
+                        new
+                        {
+                            Id = "266b486f-5389-4ecb-9d49-e45bd79c1ff9",
+                            CategoryDescription = "Description for category 13 of university news.",
+                            CategoryName = "Category 13",
+                            CreatedAt = new DateTime(2025, 5, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1870),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2025, 1, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1871)
+                        },
+                        new
+                        {
+                            Id = "6f5435bd-7e8b-4b54-b151-e91adeb8fdfb",
+                            CategoryDescription = "Description for category 14 of university news.",
+                            CategoryName = "Category 14",
+                            CreatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1874),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1875)
+                        },
+                        new
+                        {
+                            Id = "8efda896-9075-4198-8c2d-e6f42b5fb79a",
+                            CategoryDescription = "Description for category 15 of university news.",
+                            CategoryName = "Category 15",
+                            CreatedAt = new DateTime(2025, 2, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1881),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2025, 5, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1881)
+                        },
+                        new
+                        {
+                            Id = "90d5d4ad-2a67-4499-8e8a-65dd9b05789c",
+                            CategoryDescription = "Description for category 16 of university news.",
+                            CategoryName = "Category 16",
+                            CreatedAt = new DateTime(2024, 7, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1885),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2024, 12, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1885)
+                        },
+                        new
+                        {
+                            Id = "ec8265b7-d899-4a89-bf12-1d8b566633ff",
+                            CategoryDescription = "Description for category 17 of university news.",
+                            CategoryName = "Category 17",
+                            CreatedAt = new DateTime(2024, 11, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1889),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1889)
+                        },
+                        new
+                        {
+                            Id = "eaf19e11-72c6-4baf-b4e5-58c5f2f1d2af",
+                            CategoryDescription = "Description for category 18 of university news.",
+                            CategoryName = "Category 18",
+                            CreatedAt = new DateTime(2024, 12, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1894),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2025, 3, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1894)
+                        },
+                        new
+                        {
+                            Id = "1f482ec7-11f2-4551-90b1-d67dc1f44559",
+                            CategoryDescription = "Description for category 19 of university news.",
+                            CategoryName = "Category 19",
+                            CreatedAt = new DateTime(2025, 2, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1900),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2025, 3, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1900)
+                        },
+                        new
+                        {
+                            Id = "291c53ff-a0bc-41b8-bd3e-4b278632fe35",
+                            CategoryDescription = "Description for category 20 of university news.",
+                            CategoryName = "Category 20",
+                            CreatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1904),
+                            IsActive = true,
+                            UpdatedAt = new DateTime(2024, 7, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(1904)
+                        });
                 });
 
             modelBuilder.Entity("DataLayer.Entities.NewsArticle", b =>
@@ -94,6 +276,308 @@ namespace DataLayer.Migrations
                     b.HasIndex("NewsTitle");
 
                     b.ToTable("NewsArticles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "0a305430-69aa-4ce6-b100-7e2e3856325e",
+                            CategoryId = "eaf19e11-72c6-4baf-b4e5-58c5f2f1d2af",
+                            CreatedAt = new DateTime(2025, 2, 28, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2483),
+                            CreatedById = "8908368e-4567-460c-bba9-38b60d8f225f",
+                            CreatedDate = new DateTime(2025, 2, 28, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2483),
+                            NewsContent = "This is the detailed content for news article 1. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 1 - d037b2aa",
+                            UpdatedAt = new DateTime(2025, 2, 28, 22, 1, 22, 560, DateTimeKind.Utc).AddTicks(2483)
+                        },
+                        new
+                        {
+                            Id = "7b43a7bd-2db9-4f05-b335-c7d8fafe73ea",
+                            CategoryId = "eaf19e11-72c6-4baf-b4e5-58c5f2f1d2af",
+                            CreatedAt = new DateTime(2024, 9, 5, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2515),
+                            CreatedById = "c6a02908-bdf5-49c8-8655-e6b281990077",
+                            CreatedDate = new DateTime(2024, 9, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2515),
+                            NewsContent = "This is the detailed content for news article 2. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 2 - 99500eed",
+                            UpdatedAt = new DateTime(2024, 9, 5, 22, 0, 22, 560, DateTimeKind.Utc).AddTicks(2515)
+                        },
+                        new
+                        {
+                            Id = "c9834247-9438-4cbf-9a72-4b9a7fb29930",
+                            CategoryId = "8efda896-9075-4198-8c2d-e6f42b5fb79a",
+                            CreatedAt = new DateTime(2024, 9, 25, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2521),
+                            CreatedById = "75dc7281-6259-4bde-bee0-3be7aabfc677",
+                            CreatedDate = new DateTime(2024, 9, 25, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2521),
+                            NewsContent = "This is the detailed content for news article 3. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 3 - 7f043080",
+                            UpdatedAt = new DateTime(2024, 9, 25, 21, 53, 22, 560, DateTimeKind.Utc).AddTicks(2521)
+                        },
+                        new
+                        {
+                            Id = "e93b9e54-6f3a-4672-bf06-76682abf9b16",
+                            CategoryId = "f99f7276-bbfc-4ab1-9d2a-9cad7bf26ba7",
+                            CreatedAt = new DateTime(2024, 8, 30, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2547),
+                            CreatedById = "c45be152-66e2-4635-a6e5-687f9d18e1bb",
+                            CreatedDate = new DateTime(2024, 8, 30, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2547),
+                            NewsContent = "This is the detailed content for news article 4. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 4 - e16ce3cd",
+                            UpdatedAt = new DateTime(2024, 8, 30, 21, 57, 22, 560, DateTimeKind.Utc).AddTicks(2547)
+                        },
+                        new
+                        {
+                            Id = "33cf89da-6b18-489a-8bbe-66e747b8cb89",
+                            CategoryId = "eba490d7-74e5-4d5b-b6dd-771a02e1bb82",
+                            CreatedAt = new DateTime(2024, 8, 17, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2576),
+                            CreatedById = "6283d1bf-bfc3-4b99-96cb-9825af009158",
+                            CreatedDate = new DateTime(2024, 8, 17, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2576),
+                            NewsContent = "This is the detailed content for news article 5. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = false,
+                            NewsTitle = "University Update: Article 5 - 1981e71b",
+                            UpdatedAt = new DateTime(2024, 8, 17, 22, 23, 22, 560, DateTimeKind.Utc).AddTicks(2576)
+                        },
+                        new
+                        {
+                            Id = "5a3b046a-05fd-45b0-8a8f-5128fc7e7939",
+                            CategoryId = "0e3788f2-8b0a-47a5-a130-1452972025bd",
+                            CreatedAt = new DateTime(2024, 8, 19, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2582),
+                            CreatedById = "2a2b4691-7f48-437a-90dd-0cbea52590cc",
+                            CreatedDate = new DateTime(2024, 8, 19, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2582),
+                            NewsContent = "This is the detailed content for news article 6. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = false,
+                            NewsTitle = "University Update: Article 6 - c5e5c3be",
+                            UpdatedAt = new DateTime(2024, 8, 19, 22, 19, 22, 560, DateTimeKind.Utc).AddTicks(2582)
+                        },
+                        new
+                        {
+                            Id = "26c85523-9687-4960-87ec-6573454ecc58",
+                            CategoryId = "c24b3184-083a-4831-9828-2f93f5ae3f21",
+                            CreatedAt = new DateTime(2025, 1, 30, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2586),
+                            CreatedById = "dca12f71-473a-4166-8da4-1cdde805371c",
+                            CreatedDate = new DateTime(2025, 1, 30, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2586),
+                            NewsContent = "This is the detailed content for news article 7. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 7 - dea19c13",
+                            UpdatedAt = new DateTime(2025, 1, 30, 21, 55, 22, 560, DateTimeKind.Utc).AddTicks(2586)
+                        },
+                        new
+                        {
+                            Id = "4a6c0e55-38c4-4912-bf37-4ea5e8eea92d",
+                            CategoryId = "c24b3184-083a-4831-9828-2f93f5ae3f21",
+                            CreatedAt = new DateTime(2024, 9, 22, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2592),
+                            CreatedById = "f14e2936-77ec-4496-a92b-cd7f0a915045",
+                            CreatedDate = new DateTime(2024, 9, 22, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2592),
+                            NewsContent = "This is the detailed content for news article 8. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 8 - 013e38c1",
+                            UpdatedAt = new DateTime(2024, 9, 22, 22, 34, 22, 560, DateTimeKind.Utc).AddTicks(2592)
+                        },
+                        new
+                        {
+                            Id = "46f29f09-63df-4ab8-a40a-d5287b857eca",
+                            CategoryId = "007e6d98-387b-4048-ad2f-9bd8f0bc4d74",
+                            CreatedAt = new DateTime(2024, 10, 15, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2597),
+                            CreatedById = "b3359099-b7c3-438e-af3f-5a74f415210f",
+                            CreatedDate = new DateTime(2024, 10, 15, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2597),
+                            NewsContent = "This is the detailed content for news article 9. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = false,
+                            NewsTitle = "University Update: Article 9 - 9deaa332",
+                            UpdatedAt = new DateTime(2024, 10, 15, 22, 29, 22, 560, DateTimeKind.Utc).AddTicks(2597)
+                        },
+                        new
+                        {
+                            Id = "7f80144e-2cc6-4201-aebe-ec7c7a09a1d4",
+                            CategoryId = "266b486f-5389-4ecb-9d49-e45bd79c1ff9",
+                            CreatedAt = new DateTime(2024, 12, 31, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2603),
+                            CreatedById = "8908368e-4567-460c-bba9-38b60d8f225f",
+                            CreatedDate = new DateTime(2024, 12, 31, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2603),
+                            NewsContent = "This is the detailed content for news article 10. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 10 - e7095fe8",
+                            UpdatedAt = new DateTime(2024, 12, 31, 21, 53, 22, 560, DateTimeKind.Utc).AddTicks(2603)
+                        },
+                        new
+                        {
+                            Id = "379cc9b0-d3b1-4b5f-8508-175e349e0410",
+                            CategoryId = "ca078160-6bc0-49ad-869f-2a6588f35573",
+                            CreatedAt = new DateTime(2025, 4, 13, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2668),
+                            CreatedById = "fd8d8d31-0c3b-40a1-8cc4-ee26bdb7633d",
+                            CreatedDate = new DateTime(2025, 4, 13, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2668),
+                            NewsContent = "This is the detailed content for news article 11. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 11 - 17d3d721",
+                            UpdatedAt = new DateTime(2025, 4, 13, 22, 20, 22, 560, DateTimeKind.Utc).AddTicks(2668)
+                        },
+                        new
+                        {
+                            Id = "802c5661-eda8-4b42-ad1a-166cb588dc05",
+                            CategoryId = "27dffebf-9ac6-43c3-9f4f-5855394af11e",
+                            CreatedAt = new DateTime(2024, 10, 10, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2673),
+                            CreatedById = "6dfe714f-9886-40ea-a0dd-864fe1dc4ef3",
+                            CreatedDate = new DateTime(2024, 10, 10, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2673),
+                            NewsContent = "This is the detailed content for news article 12. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 12 - e3e0cd3d",
+                            UpdatedAt = new DateTime(2024, 10, 10, 22, 13, 22, 560, DateTimeKind.Utc).AddTicks(2673)
+                        },
+                        new
+                        {
+                            Id = "c36a6a3a-8c6c-4ad4-b3d7-0e352b812a31",
+                            CategoryId = "0e3788f2-8b0a-47a5-a130-1452972025bd",
+                            CreatedAt = new DateTime(2024, 12, 15, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2679),
+                            CreatedById = "4dcb0ede-bdc8-40f1-884e-ace4786a0145",
+                            CreatedDate = new DateTime(2024, 12, 15, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2679),
+                            NewsContent = "This is the detailed content for news article 13. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 13 - f3b04bf8",
+                            UpdatedAt = new DateTime(2024, 12, 15, 21, 54, 22, 560, DateTimeKind.Utc).AddTicks(2679)
+                        },
+                        new
+                        {
+                            Id = "a9e377c3-de4c-4d68-adad-382569227984",
+                            CategoryId = "2dc87923-74b9-4403-81ea-97ea4c57ca02",
+                            CreatedAt = new DateTime(2024, 10, 18, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2683),
+                            CreatedById = "2a2b4691-7f48-437a-90dd-0cbea52590cc",
+                            CreatedDate = new DateTime(2024, 10, 18, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2683),
+                            NewsContent = "This is the detailed content for news article 14. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = false,
+                            NewsTitle = "University Update: Article 14 - 86c7af2d",
+                            UpdatedAt = new DateTime(2024, 10, 18, 22, 13, 22, 560, DateTimeKind.Utc).AddTicks(2683)
+                        },
+                        new
+                        {
+                            Id = "f122ad11-e823-406a-9bf4-ff5a1463462f",
+                            CategoryId = "f99f7276-bbfc-4ab1-9d2a-9cad7bf26ba7",
+                            CreatedAt = new DateTime(2024, 12, 1, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2697),
+                            CreatedById = "8908368e-4567-460c-bba9-38b60d8f225f",
+                            CreatedDate = new DateTime(2024, 12, 1, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2697),
+                            NewsContent = "This is the detailed content for news article 15. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 15 - 07dafab2",
+                            UpdatedAt = new DateTime(2024, 12, 1, 22, 7, 22, 560, DateTimeKind.Utc).AddTicks(2697)
+                        },
+                        new
+                        {
+                            Id = "bc49a86e-459f-4b41-a031-e2942808ba59",
+                            CategoryId = "ec8265b7-d899-4a89-bf12-1d8b566633ff",
+                            CreatedAt = new DateTime(2025, 5, 19, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2703),
+                            CreatedById = "8908368e-4567-460c-bba9-38b60d8f225f",
+                            CreatedDate = new DateTime(2025, 5, 19, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2703),
+                            NewsContent = "This is the detailed content for news article 16. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = false,
+                            NewsTitle = "University Update: Article 16 - f2abf112",
+                            UpdatedAt = new DateTime(2025, 5, 19, 22, 33, 22, 560, DateTimeKind.Utc).AddTicks(2703)
+                        },
+                        new
+                        {
+                            Id = "009c3ae2-bbcd-448f-b574-c16a12872c67",
+                            CategoryId = "7f9b03b3-ee86-41bc-8f54-5a1afc6d5342",
+                            CreatedAt = new DateTime(2025, 1, 29, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2707),
+                            CreatedById = "30ec03a3-edb6-459f-9f85-9d6d56625600",
+                            CreatedDate = new DateTime(2025, 1, 29, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2707),
+                            NewsContent = "This is the detailed content for news article 17. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 17 - 4fbd6531",
+                            UpdatedAt = new DateTime(2025, 1, 29, 22, 29, 22, 560, DateTimeKind.Utc).AddTicks(2707)
+                        },
+                        new
+                        {
+                            Id = "5a39b647-5bb5-43dd-a8ea-625a04da0fa8",
+                            CategoryId = "ca078160-6bc0-49ad-869f-2a6588f35573",
+                            CreatedAt = new DateTime(2025, 1, 7, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2746),
+                            CreatedById = "00d3f0c6-e9c0-4c0c-8e76-339b2cc60e9b",
+                            CreatedDate = new DateTime(2025, 1, 7, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2746),
+                            NewsContent = "This is the detailed content for news article 18. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = false,
+                            NewsTitle = "University Update: Article 18 - ab16d604",
+                            UpdatedAt = new DateTime(2025, 1, 7, 21, 46, 22, 560, DateTimeKind.Utc).AddTicks(2746)
+                        },
+                        new
+                        {
+                            Id = "5e8fc9d0-05ed-49f6-bbce-6bcc90803a74",
+                            CategoryId = "c24b3184-083a-4831-9828-2f93f5ae3f21",
+                            CreatedAt = new DateTime(2025, 3, 2, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2751),
+                            CreatedById = "00c8e53e-9825-4a0f-a689-b07ec9b4f4d6",
+                            CreatedDate = new DateTime(2025, 3, 2, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2751),
+                            NewsContent = "This is the detailed content for news article 19. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = false,
+                            NewsTitle = "University Update: Article 19 - 03b602d2",
+                            UpdatedAt = new DateTime(2025, 3, 2, 22, 29, 22, 560, DateTimeKind.Utc).AddTicks(2751)
+                        },
+                        new
+                        {
+                            Id = "9267f91e-6648-4c52-98f4-35598cd01f0c",
+                            CategoryId = "8efda896-9075-4198-8c2d-e6f42b5fb79a",
+                            CreatedAt = new DateTime(2025, 4, 20, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2755),
+                            CreatedById = "b3359099-b7c3-438e-af3f-5a74f415210f",
+                            CreatedDate = new DateTime(2025, 4, 20, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2755),
+                            NewsContent = "This is the detailed content for news article 20. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 20 - 0c635b9b",
+                            UpdatedAt = new DateTime(2025, 4, 20, 22, 23, 22, 560, DateTimeKind.Utc).AddTicks(2755)
+                        },
+                        new
+                        {
+                            Id = "aaf1dc0b-915c-4598-ac93-72d09f1cfba7",
+                            CategoryId = "266b486f-5389-4ecb-9d49-e45bd79c1ff9",
+                            CreatedAt = new DateTime(2024, 9, 9, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2761),
+                            CreatedById = "cfa8daa3-2872-47b1-89c0-e4a14fa752c4",
+                            CreatedDate = new DateTime(2024, 9, 9, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2761),
+                            NewsContent = "This is the detailed content for news article 21. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = true,
+                            NewsTitle = "University Update: Article 21 - ad44a261",
+                            UpdatedAt = new DateTime(2024, 9, 9, 22, 16, 22, 560, DateTimeKind.Utc).AddTicks(2761)
+                        },
+                        new
+                        {
+                            Id = "e81ba74d-2440-440e-bc91-93fd9d5c186b",
+                            CategoryId = "84a628bb-a886-492e-9766-9fc25f17ac9d",
+                            CreatedAt = new DateTime(2024, 8, 3, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2765),
+                            CreatedById = "c6a02908-bdf5-49c8-8655-e6b281990077",
+                            CreatedDate = new DateTime(2024, 8, 3, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2765),
+                            NewsContent = "This is the detailed content for news article 22. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = false,
+                            NewsTitle = "University Update: Article 22 - 1e874bb8",
+                            UpdatedAt = new DateTime(2024, 8, 3, 22, 5, 22, 560, DateTimeKind.Utc).AddTicks(2765)
+                        },
+                        new
+                        {
+                            Id = "724d4173-a964-4b01-877d-8939df35bc1d",
+                            CategoryId = "27dffebf-9ac6-43c3-9f4f-5855394af11e",
+                            CreatedAt = new DateTime(2024, 6, 10, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2770),
+                            CreatedById = "7be4d735-f5c3-4afd-bd97-950a672a42aa",
+                            CreatedDate = new DateTime(2024, 6, 10, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2770),
+                            NewsContent = "This is the detailed content for news article 23. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = false,
+                            NewsTitle = "University Update: Article 23 - 1e3c5685",
+                            UpdatedAt = new DateTime(2024, 6, 10, 22, 34, 22, 560, DateTimeKind.Utc).AddTicks(2770)
+                        },
+                        new
+                        {
+                            Id = "258ec250-a032-4cd5-b32e-a90869a68562",
+                            CategoryId = "27dffebf-9ac6-43c3-9f4f-5855394af11e",
+                            CreatedAt = new DateTime(2025, 3, 30, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2775),
+                            CreatedById = "831696b4-8803-404d-8990-1c178d208114",
+                            CreatedDate = new DateTime(2025, 3, 30, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2775),
+                            NewsContent = "This is the detailed content for news article 24. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = false,
+                            NewsTitle = "University Update: Article 24 - ec424677",
+                            UpdatedAt = new DateTime(2025, 3, 30, 22, 8, 22, 560, DateTimeKind.Utc).AddTicks(2775)
+                        },
+                        new
+                        {
+                            Id = "5bdbc52c-6ff4-4bb4-9bff-a4eaa52d197d",
+                            CategoryId = "eba490d7-74e5-4d5b-b6dd-771a02e1bb82",
+                            CreatedAt = new DateTime(2024, 12, 23, 20, 37, 22, 560, DateTimeKind.Utc).AddTicks(2802),
+                            CreatedById = "f14e2936-77ec-4496-a92b-cd7f0a915045",
+                            CreatedDate = new DateTime(2024, 12, 23, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2802),
+                            NewsContent = "This is the detailed content for news article 25. It covers important developments and announcements within the university community. Stay tuned for more updates! This article aims to inform students, faculty, and staff about recent achievements and upcoming events. We value our community's engagement.",
+                            NewsStatus = false,
+                            NewsTitle = "University Update: Article 25 - b6c61b2c",
+                            UpdatedAt = new DateTime(2024, 12, 23, 21, 40, 22, 560, DateTimeKind.Utc).AddTicks(2802)
+                        });
                 });
 
             modelBuilder.Entity("DataLayer.Entities.NewsTag", b =>
@@ -109,6 +593,413 @@ namespace DataLayer.Migrations
                     b.HasIndex("TagId");
 
                     b.ToTable("NewsTags");
+
+                    b.HasData(
+                        new
+                        {
+                            NewsArticleId = "0a305430-69aa-4ce6-b100-7e2e3856325e",
+                            TagId = "34a548e5-ee5a-4e6b-b7f2-a95dfb020804"
+                        },
+                        new
+                        {
+                            NewsArticleId = "0a305430-69aa-4ce6-b100-7e2e3856325e",
+                            TagId = "ac611768-3b81-4cae-a473-1c251d2333fc"
+                        },
+                        new
+                        {
+                            NewsArticleId = "0a305430-69aa-4ce6-b100-7e2e3856325e",
+                            TagId = "1a85842d-241c-4773-be2f-54f047dc3307"
+                        },
+                        new
+                        {
+                            NewsArticleId = "0a305430-69aa-4ce6-b100-7e2e3856325e",
+                            TagId = "a98d3bda-464b-4cee-9f13-0e3e7b057c97"
+                        },
+                        new
+                        {
+                            NewsArticleId = "7b43a7bd-2db9-4f05-b335-c7d8fafe73ea",
+                            TagId = "3adbda9d-1e72-4ed1-bb21-84a4fa515dab"
+                        },
+                        new
+                        {
+                            NewsArticleId = "7b43a7bd-2db9-4f05-b335-c7d8fafe73ea",
+                            TagId = "a98d3bda-464b-4cee-9f13-0e3e7b057c97"
+                        },
+                        new
+                        {
+                            NewsArticleId = "7b43a7bd-2db9-4f05-b335-c7d8fafe73ea",
+                            TagId = "1c38e6ed-9100-4a51-9a0f-fc42a3b726d3"
+                        },
+                        new
+                        {
+                            NewsArticleId = "7b43a7bd-2db9-4f05-b335-c7d8fafe73ea",
+                            TagId = "8456c06b-4d67-4db6-9e0f-9f2dcc4cef2b"
+                        },
+                        new
+                        {
+                            NewsArticleId = "7b43a7bd-2db9-4f05-b335-c7d8fafe73ea",
+                            TagId = "075084b9-c21d-463c-bd59-b0e388baecb4"
+                        },
+                        new
+                        {
+                            NewsArticleId = "c9834247-9438-4cbf-9a72-4b9a7fb29930",
+                            TagId = "ea9eadd7-07d4-4840-88af-d86998f0b716"
+                        },
+                        new
+                        {
+                            NewsArticleId = "c9834247-9438-4cbf-9a72-4b9a7fb29930",
+                            TagId = "fdd9e980-a653-4ef9-9353-a6e11d0b7e8c"
+                        },
+                        new
+                        {
+                            NewsArticleId = "e93b9e54-6f3a-4672-bf06-76682abf9b16",
+                            TagId = "3adbda9d-1e72-4ed1-bb21-84a4fa515dab"
+                        },
+                        new
+                        {
+                            NewsArticleId = "e93b9e54-6f3a-4672-bf06-76682abf9b16",
+                            TagId = "a98d3bda-464b-4cee-9f13-0e3e7b057c97"
+                        },
+                        new
+                        {
+                            NewsArticleId = "33cf89da-6b18-489a-8bbe-66e747b8cb89",
+                            TagId = "4c805900-0439-4e12-a8a8-9b41c41243ab"
+                        },
+                        new
+                        {
+                            NewsArticleId = "33cf89da-6b18-489a-8bbe-66e747b8cb89",
+                            TagId = "5c4aaa6a-3fde-4474-9616-e94d9f31db70"
+                        },
+                        new
+                        {
+                            NewsArticleId = "33cf89da-6b18-489a-8bbe-66e747b8cb89",
+                            TagId = "34a548e5-ee5a-4e6b-b7f2-a95dfb020804"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5a3b046a-05fd-45b0-8a8f-5128fc7e7939",
+                            TagId = "243fec52-92d7-426c-ac71-fb8ee94a7788"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5a3b046a-05fd-45b0-8a8f-5128fc7e7939",
+                            TagId = "86b39a89-3588-432c-a294-d47b05c0f12c"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5a3b046a-05fd-45b0-8a8f-5128fc7e7939",
+                            TagId = "2982951d-5a91-4c0c-b58e-18a32a7d381b"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5a3b046a-05fd-45b0-8a8f-5128fc7e7939",
+                            TagId = "ea9eadd7-07d4-4840-88af-d86998f0b716"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5a3b046a-05fd-45b0-8a8f-5128fc7e7939",
+                            TagId = "abca5a96-a113-4b62-986d-bdde9ad74ac6"
+                        },
+                        new
+                        {
+                            NewsArticleId = "26c85523-9687-4960-87ec-6573454ecc58",
+                            TagId = "320743f5-a2df-4b92-bade-a92011fb5f19"
+                        },
+                        new
+                        {
+                            NewsArticleId = "26c85523-9687-4960-87ec-6573454ecc58",
+                            TagId = "ac611768-3b81-4cae-a473-1c251d2333fc"
+                        },
+                        new
+                        {
+                            NewsArticleId = "26c85523-9687-4960-87ec-6573454ecc58",
+                            TagId = "9720f493-2987-4856-9197-bc58add21994"
+                        },
+                        new
+                        {
+                            NewsArticleId = "4a6c0e55-38c4-4912-bf37-4ea5e8eea92d",
+                            TagId = "34a548e5-ee5a-4e6b-b7f2-a95dfb020804"
+                        },
+                        new
+                        {
+                            NewsArticleId = "4a6c0e55-38c4-4912-bf37-4ea5e8eea92d",
+                            TagId = "b918e898-7044-4d4f-a25d-dd1ec892477b"
+                        },
+                        new
+                        {
+                            NewsArticleId = "4a6c0e55-38c4-4912-bf37-4ea5e8eea92d",
+                            TagId = "9720f493-2987-4856-9197-bc58add21994"
+                        },
+                        new
+                        {
+                            NewsArticleId = "46f29f09-63df-4ab8-a40a-d5287b857eca",
+                            TagId = "4d8beb4c-4d56-4517-b509-cb4bc21c0559"
+                        },
+                        new
+                        {
+                            NewsArticleId = "46f29f09-63df-4ab8-a40a-d5287b857eca",
+                            TagId = "1c38e6ed-9100-4a51-9a0f-fc42a3b726d3"
+                        },
+                        new
+                        {
+                            NewsArticleId = "7f80144e-2cc6-4201-aebe-ec7c7a09a1d4",
+                            TagId = "34a548e5-ee5a-4e6b-b7f2-a95dfb020804"
+                        },
+                        new
+                        {
+                            NewsArticleId = "7f80144e-2cc6-4201-aebe-ec7c7a09a1d4",
+                            TagId = "8456c06b-4d67-4db6-9e0f-9f2dcc4cef2b"
+                        },
+                        new
+                        {
+                            NewsArticleId = "7f80144e-2cc6-4201-aebe-ec7c7a09a1d4",
+                            TagId = "1c38e6ed-9100-4a51-9a0f-fc42a3b726d3"
+                        },
+                        new
+                        {
+                            NewsArticleId = "7f80144e-2cc6-4201-aebe-ec7c7a09a1d4",
+                            TagId = "3aeb1f76-2f18-45f9-9ea2-c1b488984edb"
+                        },
+                        new
+                        {
+                            NewsArticleId = "379cc9b0-d3b1-4b5f-8508-175e349e0410",
+                            TagId = "243fec52-92d7-426c-ac71-fb8ee94a7788"
+                        },
+                        new
+                        {
+                            NewsArticleId = "379cc9b0-d3b1-4b5f-8508-175e349e0410",
+                            TagId = "5c4aaa6a-3fde-4474-9616-e94d9f31db70"
+                        },
+                        new
+                        {
+                            NewsArticleId = "379cc9b0-d3b1-4b5f-8508-175e349e0410",
+                            TagId = "ea9eadd7-07d4-4840-88af-d86998f0b716"
+                        },
+                        new
+                        {
+                            NewsArticleId = "379cc9b0-d3b1-4b5f-8508-175e349e0410",
+                            TagId = "34a548e5-ee5a-4e6b-b7f2-a95dfb020804"
+                        },
+                        new
+                        {
+                            NewsArticleId = "802c5661-eda8-4b42-ad1a-166cb588dc05",
+                            TagId = "b918e898-7044-4d4f-a25d-dd1ec892477b"
+                        },
+                        new
+                        {
+                            NewsArticleId = "802c5661-eda8-4b42-ad1a-166cb588dc05",
+                            TagId = "4a84e146-1c1f-4fba-98d9-0659460dbc3f"
+                        },
+                        new
+                        {
+                            NewsArticleId = "802c5661-eda8-4b42-ad1a-166cb588dc05",
+                            TagId = "1a85842d-241c-4773-be2f-54f047dc3307"
+                        },
+                        new
+                        {
+                            NewsArticleId = "802c5661-eda8-4b42-ad1a-166cb588dc05",
+                            TagId = "1c38e6ed-9100-4a51-9a0f-fc42a3b726d3"
+                        },
+                        new
+                        {
+                            NewsArticleId = "802c5661-eda8-4b42-ad1a-166cb588dc05",
+                            TagId = "fdd9e980-a653-4ef9-9353-a6e11d0b7e8c"
+                        },
+                        new
+                        {
+                            NewsArticleId = "c36a6a3a-8c6c-4ad4-b3d7-0e352b812a31",
+                            TagId = "1a85842d-241c-4773-be2f-54f047dc3307"
+                        },
+                        new
+                        {
+                            NewsArticleId = "c36a6a3a-8c6c-4ad4-b3d7-0e352b812a31",
+                            TagId = "34a548e5-ee5a-4e6b-b7f2-a95dfb020804"
+                        },
+                        new
+                        {
+                            NewsArticleId = "a9e377c3-de4c-4d68-adad-382569227984",
+                            TagId = "1a85842d-241c-4773-be2f-54f047dc3307"
+                        },
+                        new
+                        {
+                            NewsArticleId = "a9e377c3-de4c-4d68-adad-382569227984",
+                            TagId = "3adbda9d-1e72-4ed1-bb21-84a4fa515dab"
+                        },
+                        new
+                        {
+                            NewsArticleId = "a9e377c3-de4c-4d68-adad-382569227984",
+                            TagId = "ea9eadd7-07d4-4840-88af-d86998f0b716"
+                        },
+                        new
+                        {
+                            NewsArticleId = "a9e377c3-de4c-4d68-adad-382569227984",
+                            TagId = "5c4aaa6a-3fde-4474-9616-e94d9f31db70"
+                        },
+                        new
+                        {
+                            NewsArticleId = "a9e377c3-de4c-4d68-adad-382569227984",
+                            TagId = "a98d3bda-464b-4cee-9f13-0e3e7b057c97"
+                        },
+                        new
+                        {
+                            NewsArticleId = "f122ad11-e823-406a-9bf4-ff5a1463462f",
+                            TagId = "5c4aaa6a-3fde-4474-9616-e94d9f31db70"
+                        },
+                        new
+                        {
+                            NewsArticleId = "f122ad11-e823-406a-9bf4-ff5a1463462f",
+                            TagId = "9720f493-2987-4856-9197-bc58add21994"
+                        },
+                        new
+                        {
+                            NewsArticleId = "f122ad11-e823-406a-9bf4-ff5a1463462f",
+                            TagId = "4c805900-0439-4e12-a8a8-9b41c41243ab"
+                        },
+                        new
+                        {
+                            NewsArticleId = "f122ad11-e823-406a-9bf4-ff5a1463462f",
+                            TagId = "b918e898-7044-4d4f-a25d-dd1ec892477b"
+                        },
+                        new
+                        {
+                            NewsArticleId = "bc49a86e-459f-4b41-a031-e2942808ba59",
+                            TagId = "1a85842d-241c-4773-be2f-54f047dc3307"
+                        },
+                        new
+                        {
+                            NewsArticleId = "bc49a86e-459f-4b41-a031-e2942808ba59",
+                            TagId = "34a548e5-ee5a-4e6b-b7f2-a95dfb020804"
+                        },
+                        new
+                        {
+                            NewsArticleId = "009c3ae2-bbcd-448f-b574-c16a12872c67",
+                            TagId = "1a85842d-241c-4773-be2f-54f047dc3307"
+                        },
+                        new
+                        {
+                            NewsArticleId = "009c3ae2-bbcd-448f-b574-c16a12872c67",
+                            TagId = "4a84e146-1c1f-4fba-98d9-0659460dbc3f"
+                        },
+                        new
+                        {
+                            NewsArticleId = "009c3ae2-bbcd-448f-b574-c16a12872c67",
+                            TagId = "86b39a89-3588-432c-a294-d47b05c0f12c"
+                        },
+                        new
+                        {
+                            NewsArticleId = "009c3ae2-bbcd-448f-b574-c16a12872c67",
+                            TagId = "4d8beb4c-4d56-4517-b509-cb4bc21c0559"
+                        },
+                        new
+                        {
+                            NewsArticleId = "009c3ae2-bbcd-448f-b574-c16a12872c67",
+                            TagId = "1c38e6ed-9100-4a51-9a0f-fc42a3b726d3"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5a39b647-5bb5-43dd-a8ea-625a04da0fa8",
+                            TagId = "5c4aaa6a-3fde-4474-9616-e94d9f31db70"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5a39b647-5bb5-43dd-a8ea-625a04da0fa8",
+                            TagId = "86b39a89-3588-432c-a294-d47b05c0f12c"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5a39b647-5bb5-43dd-a8ea-625a04da0fa8",
+                            TagId = "abca5a96-a113-4b62-986d-bdde9ad74ac6"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5e8fc9d0-05ed-49f6-bbce-6bcc90803a74",
+                            TagId = "4c805900-0439-4e12-a8a8-9b41c41243ab"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5e8fc9d0-05ed-49f6-bbce-6bcc90803a74",
+                            TagId = "320743f5-a2df-4b92-bade-a92011fb5f19"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5e8fc9d0-05ed-49f6-bbce-6bcc90803a74",
+                            TagId = "86b39a89-3588-432c-a294-d47b05c0f12c"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5e8fc9d0-05ed-49f6-bbce-6bcc90803a74",
+                            TagId = "b918e898-7044-4d4f-a25d-dd1ec892477b"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5e8fc9d0-05ed-49f6-bbce-6bcc90803a74",
+                            TagId = "243fec52-92d7-426c-ac71-fb8ee94a7788"
+                        },
+                        new
+                        {
+                            NewsArticleId = "9267f91e-6648-4c52-98f4-35598cd01f0c",
+                            TagId = "34a548e5-ee5a-4e6b-b7f2-a95dfb020804"
+                        },
+                        new
+                        {
+                            NewsArticleId = "9267f91e-6648-4c52-98f4-35598cd01f0c",
+                            TagId = "ac611768-3b81-4cae-a473-1c251d2333fc"
+                        },
+                        new
+                        {
+                            NewsArticleId = "aaf1dc0b-915c-4598-ac93-72d09f1cfba7",
+                            TagId = "fdd9e980-a653-4ef9-9353-a6e11d0b7e8c"
+                        },
+                        new
+                        {
+                            NewsArticleId = "aaf1dc0b-915c-4598-ac93-72d09f1cfba7",
+                            TagId = "08ee4872-65ed-4b3f-966b-f7568556275f"
+                        },
+                        new
+                        {
+                            NewsArticleId = "e81ba74d-2440-440e-bc91-93fd9d5c186b",
+                            TagId = "1a85842d-241c-4773-be2f-54f047dc3307"
+                        },
+                        new
+                        {
+                            NewsArticleId = "e81ba74d-2440-440e-bc91-93fd9d5c186b",
+                            TagId = "ea9eadd7-07d4-4840-88af-d86998f0b716"
+                        },
+                        new
+                        {
+                            NewsArticleId = "724d4173-a964-4b01-877d-8939df35bc1d",
+                            TagId = "39f45f39-01c6-4e1a-96d9-c0a180deda1f"
+                        },
+                        new
+                        {
+                            NewsArticleId = "724d4173-a964-4b01-877d-8939df35bc1d",
+                            TagId = "9720f493-2987-4856-9197-bc58add21994"
+                        },
+                        new
+                        {
+                            NewsArticleId = "258ec250-a032-4cd5-b32e-a90869a68562",
+                            TagId = "34a548e5-ee5a-4e6b-b7f2-a95dfb020804"
+                        },
+                        new
+                        {
+                            NewsArticleId = "258ec250-a032-4cd5-b32e-a90869a68562",
+                            TagId = "08ee4872-65ed-4b3f-966b-f7568556275f"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5bdbc52c-6ff4-4bb4-9bff-a4eaa52d197d",
+                            TagId = "ea9eadd7-07d4-4840-88af-d86998f0b716"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5bdbc52c-6ff4-4bb4-9bff-a4eaa52d197d",
+                            TagId = "320743f5-a2df-4b92-bade-a92011fb5f19"
+                        },
+                        new
+                        {
+                            NewsArticleId = "5bdbc52c-6ff4-4bb4-9bff-a4eaa52d197d",
+                            TagId = "08ee4872-65ed-4b3f-966b-f7568556275f"
+                        });
                 });
 
             modelBuilder.Entity("DataLayer.Entities.SystemAccount", b =>
@@ -150,13 +1041,213 @@ namespace DataLayer.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "084a451f-5467-454e-a37a-933451063632",
+                            Id = "8908368e-4567-460c-bba9-38b60d8f225f",
                             AccountEmail = "admin@FUNewsManagementSystem.org",
                             AccountName = "Admin",
-                            AccountPassword = "@@abc123@@",
+                            AccountPassword = "$2b$10$D0wZ1oId1o2W.2StbaUt8.XLUilJJTzMG9WVbPdQTSVoA1VjIbTs6",
                             AccountRole = 0,
-                            CreatedAt = new DateTime(2025, 6, 3, 6, 45, 4, 35, DateTimeKind.Utc).AddTicks(7352),
-                            UpdatedAt = new DateTime(2025, 6, 3, 6, 45, 4, 35, DateTimeKind.Utc).AddTicks(7352)
+                            CreatedAt = new DateTime(2024, 6, 5, 21, 37, 21, 194, DateTimeKind.Utc).AddTicks(7627),
+                            UpdatedAt = new DateTime(2024, 6, 5, 21, 37, 21, 194, DateTimeKind.Utc).AddTicks(7636)
+                        },
+                        new
+                        {
+                            Id = "00c8e53e-9825-4a0f-a689-b07ec9b4f4d6",
+                            AccountEmail = "staff1@fuedu.vn",
+                            AccountName = "Staff Member 1",
+                            AccountPassword = "$2b$10$vTu2XTC5p0gEKRLl8mKLIuxsSH/Kg3qyg7eoZtld9wKKjOrAqpc/a",
+                            AccountRole = 1,
+                            CreatedAt = new DateTime(2025, 5, 5, 21, 37, 21, 265, DateTimeKind.Utc).AddTicks(2998),
+                            UpdatedAt = new DateTime(2024, 7, 5, 21, 37, 21, 265, DateTimeKind.Utc).AddTicks(3016)
+                        },
+                        new
+                        {
+                            Id = "f14e2936-77ec-4496-a92b-cd7f0a915045",
+                            AccountEmail = "staff2@fuedu.vn",
+                            AccountName = "Staff Member 2",
+                            AccountPassword = "$2b$10$Mkkpe1.R8WoLmY.pwLSg7uEbHYdNxTCJ9NbZelRLwn7GsDFphJVMW",
+                            AccountRole = 1,
+                            CreatedAt = new DateTime(2024, 9, 5, 21, 37, 21, 333, DateTimeKind.Utc).AddTicks(9865),
+                            UpdatedAt = new DateTime(2025, 4, 5, 21, 37, 21, 333, DateTimeKind.Utc).AddTicks(9878)
+                        },
+                        new
+                        {
+                            Id = "6283d1bf-bfc3-4b99-96cb-9825af009158",
+                            AccountEmail = "staff3@fuedu.vn",
+                            AccountName = "Staff Member 3",
+                            AccountPassword = "$2b$10$PkCgbao7Gi6FnMOb1JnL3ONhLZahCTtpJI7K.PuBXCzwYGsTTOOI.",
+                            AccountRole = 1,
+                            CreatedAt = new DateTime(2024, 7, 5, 21, 37, 21, 400, DateTimeKind.Utc).AddTicks(806),
+                            UpdatedAt = new DateTime(2025, 3, 5, 21, 37, 21, 400, DateTimeKind.Utc).AddTicks(817)
+                        },
+                        new
+                        {
+                            Id = "75dc7281-6259-4bde-bee0-3be7aabfc677",
+                            AccountEmail = "staff4@fuedu.vn",
+                            AccountName = "Staff Member 4",
+                            AccountPassword = "$2b$10$Y7X4/pcnHRzl31u./vHAs.avcWX9N7dpbfvs1Kh24zTA5AMK5JkFq",
+                            AccountRole = 1,
+                            CreatedAt = new DateTime(2024, 9, 5, 21, 37, 21, 472, DateTimeKind.Utc).AddTicks(4659),
+                            UpdatedAt = new DateTime(2024, 9, 5, 21, 37, 21, 472, DateTimeKind.Utc).AddTicks(4675)
+                        },
+                        new
+                        {
+                            Id = "00d3f0c6-e9c0-4c0c-8e76-339b2cc60e9b",
+                            AccountEmail = "staff5@fuedu.vn",
+                            AccountName = "Staff Member 5",
+                            AccountPassword = "$2b$10$abLUMqxw1RvyNnA/x/tqV.cjarc3RDeFqFoPJuSS3RC90ywhDw7rm",
+                            AccountRole = 1,
+                            CreatedAt = new DateTime(2025, 1, 5, 21, 37, 21, 545, DateTimeKind.Utc).AddTicks(7750),
+                            UpdatedAt = new DateTime(2024, 7, 5, 21, 37, 21, 545, DateTimeKind.Utc).AddTicks(7764)
+                        },
+                        new
+                        {
+                            Id = "4dcb0ede-bdc8-40f1-884e-ace4786a0145",
+                            AccountEmail = "staff6@fuedu.vn",
+                            AccountName = "Staff Member 6",
+                            AccountPassword = "$2b$10$hnQpH9vVd8mYbYwN2f9fY.pbMf287Wl.N2D.JeqlkTXlf48kcNErW",
+                            AccountRole = 1,
+                            CreatedAt = new DateTime(2024, 12, 5, 21, 37, 21, 619, DateTimeKind.Utc).AddTicks(7176),
+                            UpdatedAt = new DateTime(2025, 1, 5, 21, 37, 21, 619, DateTimeKind.Utc).AddTicks(7190)
+                        },
+                        new
+                        {
+                            Id = "08a71291-df33-4468-b825-ac42cd682ce0",
+                            AccountEmail = "staff7@fuedu.vn",
+                            AccountName = "Staff Member 7",
+                            AccountPassword = "$2b$10$TrISOPUjYzUh5Qr4SSO7BOq/Ukuovurt2HnavCMUBDAGsegI/ctPa",
+                            AccountRole = 1,
+                            CreatedAt = new DateTime(2024, 8, 5, 21, 37, 21, 692, DateTimeKind.Utc).AddTicks(8416),
+                            UpdatedAt = new DateTime(2024, 8, 5, 21, 37, 21, 692, DateTimeKind.Utc).AddTicks(8433)
+                        },
+                        new
+                        {
+                            Id = "c6a02908-bdf5-49c8-8655-e6b281990077",
+                            AccountEmail = "staff8@fuedu.vn",
+                            AccountName = "Staff Member 8",
+                            AccountPassword = "$2b$10$muVZN0Jd3VcdSfYsb..oquQr0R16yVAkeZmXDCD7Xklg3Fn10IFoi",
+                            AccountRole = 1,
+                            CreatedAt = new DateTime(2025, 5, 5, 21, 37, 21, 764, DateTimeKind.Utc).AddTicks(4736),
+                            UpdatedAt = new DateTime(2024, 11, 5, 21, 37, 21, 764, DateTimeKind.Utc).AddTicks(4748)
+                        },
+                        new
+                        {
+                            Id = "b3359099-b7c3-438e-af3f-5a74f415210f",
+                            AccountEmail = "staff9@fuedu.vn",
+                            AccountName = "Staff Member 9",
+                            AccountPassword = "$2b$10$yW4WPNKM7Ws/Sk08OCkVNOcnhERThQOZfKDSNSBmeJ3z6QXXsoQDO",
+                            AccountRole = 1,
+                            CreatedAt = new DateTime(2024, 11, 5, 21, 37, 21, 830, DateTimeKind.Utc).AddTicks(7339),
+                            UpdatedAt = new DateTime(2024, 7, 5, 21, 37, 21, 830, DateTimeKind.Utc).AddTicks(7353)
+                        },
+                        new
+                        {
+                            Id = "e609065a-8a36-4d5d-b1b9-2af55a123367",
+                            AccountEmail = "staff10@fuedu.vn",
+                            AccountName = "Staff Member 10",
+                            AccountPassword = "$2b$10$wYcB/1chQN93QxWZqaz0wuPs2AIPltROflKbF/9DzdCPgP0RoPjp.",
+                            AccountRole = 1,
+                            CreatedAt = new DateTime(2025, 5, 5, 21, 37, 21, 896, DateTimeKind.Utc).AddTicks(7772),
+                            UpdatedAt = new DateTime(2024, 7, 5, 21, 37, 21, 896, DateTimeKind.Utc).AddTicks(7784)
+                        },
+                        new
+                        {
+                            Id = "6dfe714f-9886-40ea-a0dd-864fe1dc4ef3",
+                            AccountEmail = "lecturer1@fuedu.vn",
+                            AccountName = "Lecturer 1",
+                            AccountPassword = "$2b$10$HXiptPpmz2ac2fFx5JLCyuX4uztmP428e7OSZ8vFkhQftdf9FcoMC",
+                            AccountRole = 2,
+                            CreatedAt = new DateTime(2025, 5, 5, 21, 37, 21, 962, DateTimeKind.Utc).AddTicks(6712),
+                            UpdatedAt = new DateTime(2025, 2, 5, 21, 37, 21, 962, DateTimeKind.Utc).AddTicks(6725)
+                        },
+                        new
+                        {
+                            Id = "cfa8daa3-2872-47b1-89c0-e4a14fa752c4",
+                            AccountEmail = "lecturer2@fuedu.vn",
+                            AccountName = "Lecturer 2",
+                            AccountPassword = "$2b$10$pMFpOs5SKexTzDWaRAlNxum9r8Gf74Cq3yvRdz5gdbwphEabgz4Fm",
+                            AccountRole = 2,
+                            CreatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 26, DateTimeKind.Utc).AddTicks(8461),
+                            UpdatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 26, DateTimeKind.Utc).AddTicks(8471)
+                        },
+                        new
+                        {
+                            Id = "2a2b4691-7f48-437a-90dd-0cbea52590cc",
+                            AccountEmail = "lecturer3@fuedu.vn",
+                            AccountName = "Lecturer 3",
+                            AccountPassword = "$2b$10$exKnuPX2uOyAWIaUKdroyeffT.rvlP6TS/23s9NZf3Vh/acHOy7ja",
+                            AccountRole = 2,
+                            CreatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 93, DateTimeKind.Utc).AddTicks(9856),
+                            UpdatedAt = new DateTime(2025, 3, 5, 21, 37, 22, 93, DateTimeKind.Utc).AddTicks(9871)
+                        },
+                        new
+                        {
+                            Id = "dca12f71-473a-4166-8da4-1cdde805371c",
+                            AccountEmail = "lecturer4@fuedu.vn",
+                            AccountName = "Lecturer 4",
+                            AccountPassword = "$2b$10$imXxgFVULlqQ5o9EXI6VCeMdM0FdcnYrEgFVMeZPwzvRH4NmhFai6",
+                            AccountRole = 2,
+                            CreatedAt = new DateTime(2025, 1, 5, 21, 37, 22, 160, DateTimeKind.Utc).AddTicks(1714),
+                            UpdatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 160, DateTimeKind.Utc).AddTicks(1727)
+                        },
+                        new
+                        {
+                            Id = "831696b4-8803-404d-8990-1c178d208114",
+                            AccountEmail = "lecturer5@fuedu.vn",
+                            AccountName = "Lecturer 5",
+                            AccountPassword = "$2b$10$ZYzh3jLq1LogVf.bBmFbYujhI9K.p5V7I3WgjV3kUB0YACgY8Fg6q",
+                            AccountRole = 2,
+                            CreatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 224, DateTimeKind.Utc).AddTicks(4316),
+                            UpdatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 224, DateTimeKind.Utc).AddTicks(4328)
+                        },
+                        new
+                        {
+                            Id = "30ec03a3-edb6-459f-9f85-9d6d56625600",
+                            AccountEmail = "lecturer6@fuedu.vn",
+                            AccountName = "Lecturer 6",
+                            AccountPassword = "$2b$10$rirFF/fZ/Wa2fv1Q789UP.7r1NZpMl3Z68VbO.0LyykaFPfhK3iQ.",
+                            AccountRole = 2,
+                            CreatedAt = new DateTime(2025, 5, 5, 21, 37, 22, 295, DateTimeKind.Utc).AddTicks(8025),
+                            UpdatedAt = new DateTime(2025, 1, 5, 21, 37, 22, 295, DateTimeKind.Utc).AddTicks(8039)
+                        },
+                        new
+                        {
+                            Id = "6f4cfd29-b515-430d-954d-29f04491b136",
+                            AccountEmail = "lecturer7@fuedu.vn",
+                            AccountName = "Lecturer 7",
+                            AccountPassword = "$2b$10$9Y.JxEqpNVhnVc1jIswG9.cChJjgU1IsP2fRZy7WFgPbDyGNFN.uS",
+                            AccountRole = 2,
+                            CreatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 365, DateTimeKind.Utc).AddTicks(9689),
+                            UpdatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 365, DateTimeKind.Utc).AddTicks(9702)
+                        },
+                        new
+                        {
+                            Id = "7be4d735-f5c3-4afd-bd97-950a672a42aa",
+                            AccountEmail = "lecturer8@fuedu.vn",
+                            AccountName = "Lecturer 8",
+                            AccountPassword = "$2b$10$nVEof7/m6NUKqu9T2SdZh.1FXEsniwXpi8E5JIRQKwnXtHVO2kUN.",
+                            AccountRole = 2,
+                            CreatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 432, DateTimeKind.Utc).AddTicks(9846),
+                            UpdatedAt = new DateTime(2025, 1, 5, 21, 37, 22, 432, DateTimeKind.Utc).AddTicks(9858)
+                        },
+                        new
+                        {
+                            Id = "fd8d8d31-0c3b-40a1-8cc4-ee26bdb7633d",
+                            AccountEmail = "lecturer9@fuedu.vn",
+                            AccountName = "Lecturer 9",
+                            AccountPassword = "$2b$10$MYIcH4BdPmV/2Qr9e.YW5u8PxmvkUXZY6YpdCHKi2xfGFJ6ktnlZ.",
+                            AccountRole = 2,
+                            CreatedAt = new DateTime(2025, 3, 5, 21, 37, 22, 496, DateTimeKind.Utc).AddTicks(9279),
+                            UpdatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 496, DateTimeKind.Utc).AddTicks(9291)
+                        },
+                        new
+                        {
+                            Id = "c45be152-66e2-4635-a6e5-687f9d18e1bb",
+                            AccountEmail = "lecturer10@fuedu.vn",
+                            AccountName = "Lecturer 10",
+                            AccountPassword = "$2b$10$c0muECb8uy32SiQO0kaUzuRNrNi4L9QT7Q1oPGrs4.jv/iwxF9UB.",
+                            AccountRole = 2,
+                            CreatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(443),
+                            UpdatedAt = new DateTime(2024, 12, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(456)
                         });
                 });
 
@@ -170,8 +1261,8 @@ namespace DataLayer.Migrations
 
                     b.Property<string>("Note")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("TagName")
                         .IsRequired()
@@ -184,6 +1275,208 @@ namespace DataLayer.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Tags");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "fdd9e980-a653-4ef9-9353-a6e11d0b7e8c",
+                            CreatedAt = new DateTime(2024, 12, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2242),
+                            Note = "General note for Technology tag.",
+                            TagName = "Technology",
+                            UpdatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2244)
+                        },
+                        new
+                        {
+                            Id = "39f45f39-01c6-4e1a-96d9-c0a180deda1f",
+                            CreatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2248),
+                            Note = "General note for Research tag.",
+                            TagName = "Research",
+                            UpdatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2249)
+                        },
+                        new
+                        {
+                            Id = "ac611768-3b81-4cae-a473-1c251d2333fc",
+                            CreatedAt = new DateTime(2024, 7, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2255),
+                            Note = "General note for StudentLife tag.",
+                            TagName = "StudentLife",
+                            UpdatedAt = new DateTime(2025, 3, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2256)
+                        },
+                        new
+                        {
+                            Id = "4c805900-0439-4e12-a8a8-9b41c41243ab",
+                            CreatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2258),
+                            Note = "General note for CampusNews tag.",
+                            TagName = "CampusNews",
+                            UpdatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2259)
+                        },
+                        new
+                        {
+                            Id = "5c4aaa6a-3fde-4474-9616-e94d9f31db70",
+                            CreatedAt = new DateTime(2025, 1, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2261),
+                            Note = "General note for Events tag.",
+                            TagName = "Events",
+                            UpdatedAt = new DateTime(2025, 1, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2261)
+                        },
+                        new
+                        {
+                            Id = "1a85842d-241c-4773-be2f-54f047dc3307",
+                            CreatedAt = new DateTime(2025, 3, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2264),
+                            Note = "General note for Sports tag.",
+                            TagName = "Sports",
+                            UpdatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2265)
+                        },
+                        new
+                        {
+                            Id = "4d8beb4c-4d56-4517-b509-cb4bc21c0559",
+                            CreatedAt = new DateTime(2024, 8, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2270),
+                            Note = "General note for Academics tag.",
+                            TagName = "Academics",
+                            UpdatedAt = new DateTime(2025, 3, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2270)
+                        },
+                        new
+                        {
+                            Id = "3aeb1f76-2f18-45f9-9ea2-c1b488984edb",
+                            CreatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2273),
+                            Note = "General note for Alumni tag.",
+                            TagName = "Alumni",
+                            UpdatedAt = new DateTime(2025, 2, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2273)
+                        },
+                        new
+                        {
+                            Id = "8456c06b-4d67-4db6-9e0f-9f2dcc4cef2b",
+                            CreatedAt = new DateTime(2024, 8, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2276),
+                            Note = "General note for International tag.",
+                            TagName = "International",
+                            UpdatedAt = new DateTime(2024, 7, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2276)
+                        },
+                        new
+                        {
+                            Id = "a98d3bda-464b-4cee-9f13-0e3e7b057c97",
+                            CreatedAt = new DateTime(2024, 10, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2279),
+                            Note = "General note for Admissions tag.",
+                            TagName = "Admissions",
+                            UpdatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2280)
+                        },
+                        new
+                        {
+                            Id = "1c38e6ed-9100-4a51-9a0f-fc42a3b726d3",
+                            CreatedAt = new DateTime(2025, 3, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2284),
+                            Note = "General note for Scholarships tag.",
+                            TagName = "Scholarships",
+                            UpdatedAt = new DateTime(2025, 5, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2285)
+                        },
+                        new
+                        {
+                            Id = "b918e898-7044-4d4f-a25d-dd1ec892477b",
+                            CreatedAt = new DateTime(2025, 4, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2287),
+                            Note = "General note for Career tag.",
+                            TagName = "Career",
+                            UpdatedAt = new DateTime(2025, 1, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2288)
+                        },
+                        new
+                        {
+                            Id = "4a84e146-1c1f-4fba-98d9-0659460dbc3f",
+                            CreatedAt = new DateTime(2025, 2, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2291),
+                            Note = "General note for Health tag.",
+                            TagName = "Health",
+                            UpdatedAt = new DateTime(2025, 5, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2291)
+                        },
+                        new
+                        {
+                            Id = "243fec52-92d7-426c-ac71-fb8ee94a7788",
+                            CreatedAt = new DateTime(2024, 11, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2294),
+                            Note = "General note for Sustainability tag.",
+                            TagName = "Sustainability",
+                            UpdatedAt = new DateTime(2024, 12, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2294)
+                        },
+                        new
+                        {
+                            Id = "521461b0-2a80-4d5c-8567-b9d5ed6aae66",
+                            CreatedAt = new DateTime(2025, 5, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2299),
+                            Note = "General note for Arts tag.",
+                            TagName = "Arts",
+                            UpdatedAt = new DateTime(2024, 7, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2299)
+                        },
+                        new
+                        {
+                            Id = "9720f493-2987-4856-9197-bc58add21994",
+                            CreatedAt = new DateTime(2025, 2, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2302),
+                            Note = "General note for Science tag.",
+                            TagName = "Science",
+                            UpdatedAt = new DateTime(2024, 11, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2302)
+                        },
+                        new
+                        {
+                            Id = "86b39a89-3588-432c-a294-d47b05c0f12c",
+                            CreatedAt = new DateTime(2025, 2, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2305),
+                            Note = "General note for Engineering tag.",
+                            TagName = "Engineering",
+                            UpdatedAt = new DateTime(2025, 5, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2305)
+                        },
+                        new
+                        {
+                            Id = "320743f5-a2df-4b92-bade-a92011fb5f19",
+                            CreatedAt = new DateTime(2024, 8, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2339),
+                            Note = "General note for Business tag.",
+                            TagName = "Business",
+                            UpdatedAt = new DateTime(2024, 11, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2339)
+                        },
+                        new
+                        {
+                            Id = "abca5a96-a113-4b62-986d-bdde9ad74ac6",
+                            CreatedAt = new DateTime(2024, 7, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2344),
+                            Note = "General note for Humanities tag.",
+                            TagName = "Humanities",
+                            UpdatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2344)
+                        },
+                        new
+                        {
+                            Id = "3adbda9d-1e72-4ed1-bb21-84a4fa515dab",
+                            CreatedAt = new DateTime(2025, 1, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2347),
+                            Note = "General note for Community tag.",
+                            TagName = "Community",
+                            UpdatedAt = new DateTime(2024, 12, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2348)
+                        },
+                        new
+                        {
+                            Id = "075084b9-c21d-463c-bd59-b0e388baecb4",
+                            CreatedAt = new DateTime(2025, 5, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2356),
+                            Note = "Note for generic tag 1.",
+                            TagName = "Generic Tag 1",
+                            UpdatedAt = new DateTime(2025, 1, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2357)
+                        },
+                        new
+                        {
+                            Id = "34a548e5-ee5a-4e6b-b7f2-a95dfb020804",
+                            CreatedAt = new DateTime(2025, 1, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2361),
+                            Note = "Note for generic tag 2.",
+                            TagName = "Generic Tag 2",
+                            UpdatedAt = new DateTime(2024, 11, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2362)
+                        },
+                        new
+                        {
+                            Id = "ea9eadd7-07d4-4840-88af-d86998f0b716",
+                            CreatedAt = new DateTime(2025, 3, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2368),
+                            Note = "Note for generic tag 3.",
+                            TagName = "Generic Tag 3",
+                            UpdatedAt = new DateTime(2024, 8, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2368)
+                        },
+                        new
+                        {
+                            Id = "2982951d-5a91-4c0c-b58e-18a32a7d381b",
+                            CreatedAt = new DateTime(2024, 8, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2372),
+                            Note = "Note for generic tag 4.",
+                            TagName = "Generic Tag 4",
+                            UpdatedAt = new DateTime(2024, 9, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2373)
+                        },
+                        new
+                        {
+                            Id = "08ee4872-65ed-4b3f-966b-f7568556275f",
+                            CreatedAt = new DateTime(2025, 5, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2376),
+                            Note = "Note for generic tag 5.",
+                            TagName = "Generic Tag 5",
+                            UpdatedAt = new DateTime(2024, 7, 5, 21, 37, 22, 560, DateTimeKind.Utc).AddTicks(2377)
+                        });
                 });
 
             modelBuilder.Entity("DataLayer.Entities.NewsArticle", b =>

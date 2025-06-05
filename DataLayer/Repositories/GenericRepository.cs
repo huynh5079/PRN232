@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using DataLayer.Data;
 
-namespace NguyenManhTanHuynh_SE17D05_A01_BE.Repositories
+namespace DataLayer.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T>, IPaginationRepository<T> where T : class
     {

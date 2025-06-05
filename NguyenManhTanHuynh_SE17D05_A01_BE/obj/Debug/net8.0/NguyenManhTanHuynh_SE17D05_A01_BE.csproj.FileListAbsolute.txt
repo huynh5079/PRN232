@@ -8,6 +8,7 @@ D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanH
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\bin\Debug\net8.0\NguyenManhTanHuynh_SE17D05_A01_BE.pdb
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\bin\Debug\net8.0\Azure.Core.dll
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\bin\Debug\net8.0\Azure.Identity.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\bin\Debug\net8.0\BCrypt.Net-Core.dll
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\bin\Debug\net8.0\Humanizer.dll
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\bin\Debug\net8.0\Microsoft.AspNetCore.OData.dll
@@ -136,6 +137,7 @@ D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanH
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\obj\Debug\net8.0\NguyenManhTanHuynh_SE17D05_A01_BE.csproj.CoreCompileInputs.cache
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\obj\Debug\net8.0\NguyenManhTanHuynh_SE17D05_A01_BE.MvcApplicationPartsAssemblyInfo.cs
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\obj\Debug\net8.0\NguyenManhTanHuynh_SE17D05_A01_BE.MvcApplicationPartsAssemblyInfo.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\obj\Debug\net8.0\NguyenManhTanHuynh_SE17D05_A01_BE.sourcelink.json
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\obj\Debug\net8.0\scopedcss\bundle\NguyenManhTanHuynh_SE17D05_A01_BE.styles.css
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\obj\Debug\net8.0\staticwebassets.build.json
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\obj\Debug\net8.0\staticwebassets.development.json
@@ -152,4 +154,3 @@ D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanH
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\obj\Debug\net8.0\NguyenManhTanHuynh_SE17D05_A01_BE.pdb
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\obj\Debug\net8.0\NguyenManhTanHuynh_SE17D05_A01_BE.genruntimeconfig.cache
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\obj\Debug\net8.0\ref\NguyenManhTanHuynh_SE17D05_A01_BE.dll
-D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\NguyenManhTanHuynh_SE17D05_A01_BE\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

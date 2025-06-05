@@ -3,36 +3,104 @@
   "WorkspaceRootPath": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\NewsArticleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\NewsArticleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\data\\assignmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\assignmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\services\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\services\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\updatenewsarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\updatenewsarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\createnewsarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\createnewsarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\updatetagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\updatetagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\createtagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\createtagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\services\\tagservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\services\\tagservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\services\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\services\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\services\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\services\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\services\\categoryservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\services\\categoryservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\controllers\\newsarticlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\controllers\\newsarticlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\NewsArticlesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\NewsArticlesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\nguyenmanhtanhuynh_se17d05_a01_be\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{87F3D95A-5B97-4C26-88F3-1E42F4823A58}|NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.csproj|solutionrelative:nguyenmanhtanhuynh_se17d05_a01_be\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\INewsArticleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\INewsArticleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\nguyenmanhtanhuynh_se17d05_a01_be\\datalayer\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A51BC43-9EF8-4A3D-AC7B-414AD38C3516}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +110,311 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateNewsArticleDto.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateNewsArticleDto.cs",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateNewsArticleDto.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateNewsArticleDto.cs",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateNewsArticleDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T20:45:54.49Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\AccountService.cs",
-              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\AccountService.cs",
-              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\AccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "Tag.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entities\\Tag.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Entities\\Tag.cs",
+              "RelativeToolTip": "DataLayer\\Entities\\Tag.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T01:36:25.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NguyenManhTanHuynh_SE17D05_A01_BE.http",
-              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.http",
-              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.http",
-              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.http",
-              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-04T01:36:14.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NewsArticlesController.cs",
-              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\NewsArticlesController.cs",
-              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\NewsArticlesController.cs",
-              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\NewsArticlesController.cs",
-              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\NewsArticlesController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAuwEsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T07:01:18.909Z",
+              "WhenOpened": "2025-06-05T21:32:47.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NewsArticleService.cs",
-              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\NewsArticleService.cs",
-              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\NewsArticleService.cs",
-              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\NewsArticleService.cs",
-              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\NewsArticleService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA+wDgAAAA+AAAAAAAAAA==",
+              "Title": "AssignmentDbContext.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Data\\AssignmentDbContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\AssignmentDbContext.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Data\\AssignmentDbContext.cs",
+              "RelativeToolTip": "DataLayer\\Data\\AssignmentDbContext.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAqwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T06:59:34.252Z",
+              "WhenOpened": "2025-06-05T21:28:43.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "INewsArticleService.cs",
-              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\INewsArticleService.cs",
-              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\INewsArticleService.cs",
-              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\INewsArticleService.cs",
-              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Services\\INewsArticleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CreateNewsArticleDto.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateNewsArticleDto.cs",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateNewsArticleDto.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateNewsArticleDto.cs",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateNewsArticleDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T06:58:59.535Z"
+              "WhenOpened": "2025-06-05T21:11:30.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateTagDto.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateTagDto.cs",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateTagDto.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateTagDto.cs",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateTagDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:09:00.757Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Properties\\launchSettings.json",
-              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAawA8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-03T06:56:26.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAkAAAABAAAAAAAAAA==",
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\TagsController.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\TagsController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAuwAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T06:49:13.992Z"
+              "WhenOpened": "2025-06-05T21:07:33.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "NewsArticleService.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\NewsArticleService.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Services\\NewsArticleService.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\NewsArticleService.cs",
+              "RelativeToolTip": "DataLayer\\Services\\NewsArticleService.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAqwKgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T20:33:33.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Program.cs",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Program.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Program.cs",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T19:56:09.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateTagDto.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateTagDto.cs",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateTagDto.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateTagDto.cs",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateTagDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:08:31.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TagService .cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\TagService .cs",
+              "RelativeDocumentMoniker": "DataLayer\\Services\\TagService .cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\TagService .cs",
+              "RelativeToolTip": "DataLayer\\Services\\TagService .cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:06:35.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITagService.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\ITagService.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Services\\ITagService.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\ITagService.cs",
+              "RelativeToolTip": "DataLayer\\Services\\ITagService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:06:19.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:02:19.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryService .cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\CategoryService .cs",
+              "RelativeDocumentMoniker": "DataLayer\\Services\\CategoryService .cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\CategoryService .cs",
+              "RelativeToolTip": "DataLayer\\Services\\CategoryService .cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA5wCwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:01:04.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Services\\ICategoryService.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "DataLayer\\Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:00:33.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateCategoryDto.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateCategoryDto.cs",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateCategoryDto.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateCategoryDto.cs",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\UpdateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:00:04.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "INewsArticleService.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\INewsArticleService.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Services\\INewsArticleService.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\INewsArticleService.cs",
+              "RelativeToolTip": "DataLayer\\Services\\INewsArticleService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAywAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T20:24:18.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateCategoryDto.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateCategoryDto.cs",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\DTOs\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T20:59:42.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NewsArticlesController.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\NewsArticlesController.cs",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\NewsArticlesController.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\NewsArticlesController.cs",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\NewsArticlesController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T20:24:16.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NguyenManhTanHuynh_SE17D05_A01_BE.http",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.http",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.http",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.http",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE.http",
+              "ViewState": "AgIAAAgAAAAAAAAAAAArwBAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-05T20:34:27.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "DataLayer\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwDcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T20:34:53.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AccountsController.cs",
               "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AccountsController.cs",
               "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwD0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T06:49:09.434Z"
+              "WhenOpened": "2025-06-05T20:22:52.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NguyenManhTanHuynh_SE17D05_A01_BE\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAqwHgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T19:59:41.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Services\\AccountService.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\AccountService.cs",
+              "RelativeToolTip": "DataLayer\\Services\\AccountService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T19:58:52.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Services\\IAccountService.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Services\\IAccountService.cs",
+              "RelativeToolTip": "DataLayer\\Services\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T19:57:35.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Utilities\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Utilities\\PasswordHasher.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\Utilities\\PasswordHasher.cs",
+              "RelativeToolTip": "DataLayer\\Utilities\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T19:50:57.438Z"
             }
           ]
         }

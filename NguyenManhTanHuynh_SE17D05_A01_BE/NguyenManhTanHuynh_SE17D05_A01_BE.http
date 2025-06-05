@@ -1,11 +1,45 @@
 @NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress = https://localhost:7223
 
-###
-
+### Signup
+POST {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/api/auth/signup
+Content-Type: application/json
+{
+  "accountName": "Huynh",
+  "accountEmail": "nghuynh5079@gmail.com",
+  "password": "123123",
+  "accountRole": 1
+}
+### Login
+POST {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/api/auth/login
+Content-Type: application/json
+{
+  "email": "nghuynh5079@gmail.com",
+  "password": "123123"
+}
+### GetAdmin
+# {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts?$filter=AccountRole eq 0 (Get Admins)
+### Get All
 GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts
+### Get ID
+GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts('8908368e-4567-460c-bba9-38b60d8f225f')
+### Create Accuont
+POST {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts
+Content-Type: application/json
 
+{
+  "AccountName": "Lecturer Jane",
+  "AccountEmail": "jane.lecturer@fu.edu.vn",
+  "AccountPassword": "123123",
+  "AccountRole": 2
+}
 ###
-
-GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/NewsArticles
-
+PUT {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts('cd79ac40-fcf7-4682-acd1-3b1d6b9ee57b')
+Content-Type: application/json
+{
+  "Id": "cd79ac40-fcf7-4682-acd1-3b1d6b9ee57b",
+  "AccountName": "Updated Lecturer Jane",
+  "AccountEmail": "jane.lecturer@fu.edu.vn",
+  "AccountPassword": "123456",
+  "AccountRole": 2,
+}
 ###

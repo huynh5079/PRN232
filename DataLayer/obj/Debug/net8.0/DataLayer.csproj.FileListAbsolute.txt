@@ -7,6 +7,7 @@ D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\DataLayer\obj\
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfoInputs.cache
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfo.cs
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\DataLayer\obj\Debug\net8.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\DataLayer\obj\Debug\net8.0\DataLayer.sourcelink.json
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\DataLayer\obj\Debug\net8.0\DataLayer.dll
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\DataLayer\obj\Debug\net8.0\refint\DataLayer.dll
 D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\DataLayer\obj\Debug\net8.0\DataLayer.pdb

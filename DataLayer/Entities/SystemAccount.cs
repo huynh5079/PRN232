@@ -23,6 +23,6 @@ namespace DataLayer.Entities
         public string AccountPassword { get; set; }
 
         [Required]
-        public int AccountRole { get; set; } // 1: Staff, 2: Lecturer
+        public int AccountRole { get; set; } // 0:ADmin, 1: Staff, 2: Lecturer
     }
 }
