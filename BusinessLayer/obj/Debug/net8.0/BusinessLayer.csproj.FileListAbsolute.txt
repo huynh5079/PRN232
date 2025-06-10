@@ -1,0 +1,16 @@
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\bin\Debug\net8.0\DataLayer.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\bin\Debug\net8.0\DataLayer.pdb
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+D:\FPT\2025 SUMMMER\PRN232\Code\NguyenManhTanHuynh_SE17D05_A01_BE\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll

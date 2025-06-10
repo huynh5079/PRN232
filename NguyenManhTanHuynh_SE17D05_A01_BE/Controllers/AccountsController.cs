@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
 using Microsoft.AspNetCore.OData.Formatter;
 using DataLayer.Entities;
-using DataLayer.Services;
+using BusinessLayer.Services;
+using DataLayer.DTOs;
 
 namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
 {
@@ -44,16 +45,20 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
             return Created(account);
         }
 
-        public async Task<IActionResult> Put([FromODataUri] string key, [FromBody] SystemAccount account)
+        public async Task<IActionResult> Put([FromODataUri] string key, [FromBody] UpdateAccountDto accountDto) // <--- NHẬN DTO MỚI
         {
-            if (key != account.Id)
-                return BadRequest("ID mismatch");
-
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            await _accountService.UpdateAsync(account);
-            return NoContent();
+            try
+            {
+                await _accountService.UpdateAsync(key, accountDto);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         public async Task<IActionResult> Delete([FromODataUri] string key)

@@ -4,13 +4,13 @@ using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
 using Microsoft.AspNetCore.OData.Formatter;
 using DataLayer.Entities;
-using DataLayer.Services;
-using NguyenManhTanHuynh_SE17D05_A01_BE.DTOs;
+using BusinessLayer.Services;
+using DataLayer.DTOs;
 
 namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
 {
     [Route("odata/[controller]")]
-    [Authorize(Roles = "Admin, Staff")]
+    //[Authorize(Roles = "Admin, Staff, Lecturer")] 
     public class TagsController : ODataController
     {
         private readonly ITagService _tagService;
@@ -20,6 +20,7 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
             _tagService = tagService;
         }
 
+        //[HttpGet]
         [EnableQuery]
         public async Task<IActionResult> Get()
         {
@@ -27,8 +28,9 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
             return Ok(tags);
         }
 
+        //[HttpGet("{key}")] // OData key convention
         [EnableQuery]
-        public async Task<IActionResult> Get([FromODataUri] string key)
+        public async Task<IActionResult> GetTag([FromODataUri] string key) // 'Get' to  'GetTag'
         {
             var tag = await _tagService.GetTagByIdAsync(key);
             if (tag == null)
@@ -36,13 +38,17 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
             return Ok(tag);
         }
 
-        [HttpPost]
+        //[HttpPost]
         public async Task<IActionResult> Post([FromBody] CreateTagDto tagDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var tag = new Tag { TagName = tagDto.TagName }; // Map DTO to Entity
+            var tag = new Tag
+            {
+                TagName = tagDto.TagName,
+                Note = tagDto.Note
+            };
 
             try
             {
@@ -70,6 +76,7 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
                 }
 
                 if (tagDto.TagName != null) existingTag.TagName = tagDto.TagName;
+                if (tagDto.Note != null) existingTag.Note = tagDto.Note; 
 
                 await _tagService.UpdateTagAsync(existingTag);
                 return NoContent();

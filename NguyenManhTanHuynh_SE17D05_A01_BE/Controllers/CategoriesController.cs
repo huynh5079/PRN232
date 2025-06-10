@@ -1,17 +1,16 @@
-﻿// NguyenManhTanHuynh_SE17D05_A01_BE/Controllers/CategoriesController.cs
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
 using Microsoft.AspNetCore.OData.Formatter;
 using DataLayer.Entities;
-using DataLayer.Services;
-using NguyenManhTanHuynh_SE17D05_A01_BE.DTOs; // <--- ADD THIS USING STATEMENT
+using BusinessLayer.Services;
+using DataLayer.DTOs;
 
 namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
 {
     [Route("odata/[controller]")]
-    [Authorize(Roles = "Admin, Staff, Lecturer")] // <--- Updated roles for clarity based on your assignment
+    //[Authorize(Roles = "Admin, Staff, Lecturer")] 
     public class CategoriesController : ODataController
     {
         private readonly ICategoryService _categoryService;
@@ -20,16 +19,16 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
         {
             _categoryService = categoryService;
         }
-
+        //[HttpGet]
         [EnableQuery]
         public async Task<IActionResult> Get()
         {
             var categories = await _categoryService.GetAllCategoriesAsync();
             return Ok(categories);
         }
-
+        //[HttpGet("{key}")]
         [EnableQuery]
-        public async Task<IActionResult> Get([FromODataUri] string key)
+        public async Task<IActionResult> GetCategory([FromODataUri] string key)
         {
             var category = await _categoryService.GetCategoryByIdAsync(key);
             if (category == null)
@@ -49,7 +48,7 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
                 CategoryName = categoryDto.CategoryName,
                 CategoryDescription = categoryDto.CategoryDescription,
                 IsActive = categoryDto.IsActive,
-                // Id, CreatedAt, UpdatedAt handled by BaseEntity/Service
+                // Id, CreatedAt, UpdatedAt handled by BaseEntity
             };
 
             try

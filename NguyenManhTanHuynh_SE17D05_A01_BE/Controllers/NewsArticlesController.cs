@@ -1,16 +1,20 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
+using Microsoft.AspNetCore.OData.Routing.Controllers;
+using Microsoft.AspNetCore.OData.Formatter;
 using DataLayer.Entities;
 using System.Security.Claims;
-using DataLayer.Services;
-using NguyenManhTanHuynh_SE17D05_A01_BE.DTOs;
+using BusinessLayer.Services;
+using DataLayer.DTOs;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
 {
     [Route("odata/NewsArticles")]
-    [Authorize(Roles = "Admin, Staff,Lecture")]
-    public class NewsArticlesController : ControllerBase
+    //[Authorize(Roles = "Admin, Staff, Lecturer")] 
+    public class NewsArticlesController : ODataController
     {
         private readonly INewsArticleService _newsArticleService;
 
@@ -18,27 +22,29 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
         {
             _newsArticleService = newsArticleService;
         }
+
         [AllowAnonymous]
-        [HttpGet]
+        //[HttpGet]
         [EnableQuery]
         public async Task<IActionResult> Get()
         {
-            var newsArticles = await _newsArticleService.GetAllNewsArticlesAsync();
+            var newsArticles = await _newsArticleService.GetAllNewsArticlesAsync(onlyActive: true);
             return Ok(newsArticles);
         }
+
         [AllowAnonymous]
-        [HttpGet("{id}")]
+        //[HttpGet("{id}")]
         [EnableQuery]
-        public async Task<IActionResult> Get(string id)
+        public async Task<IActionResult> GetNewsArticle([FromODataUri] string id) // Renamed method
         {
-            var newsArticle = await _newsArticleService.GetNewsArticleByIdAsync(id);
+            var newsArticle = await _newsArticleService.GetNewsArticleByIdAsync(id, onlyActive: true);
             if (newsArticle == null)
                 return NotFound();
             return Ok(newsArticle);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] CreateNewsArticleDto newsArticleDto) 
+        public async Task<IActionResult> Post([FromBody] CreateNewsArticleDto newsArticleDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -47,20 +53,20 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
             if (string.IsNullOrEmpty(userId))
                 return Unauthorized("User ID not found in token.");
 
-            // Map DTO to Entity
             var newsArticle = new NewsArticle
             {
                 NewsTitle = newsArticleDto.NewsTitle,
                 NewsContent = newsArticleDto.NewsContent,
                 NewsStatus = newsArticleDto.NewsStatus,
                 CategoryId = newsArticleDto.CategoryId,
-                CreatedById = userId, //  authenticated user
+                CreatedById = userId,
+                NewsTags = newsArticleDto.TagIds.Select(tagId => new NewsTag { TagId = tagId }).ToList() // Map TagIds
             };
 
             try
             {
                 await _newsArticleService.CreateNewsArticleAsync(newsArticle, userId);
-                return CreatedAtAction(nameof(Get), new { id = newsArticle.Id }, newsArticle);
+                return Created(newsArticle); // ODataController's Created helper
             }
             catch (Exception ex)
             {
@@ -69,7 +75,7 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(string id, [FromBody] UpdateNewsArticleDto newsArticleDto) 
+        public async Task<IActionResult> Put([FromODataUri] string id, [FromBody] UpdateNewsArticleDto newsArticleDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -80,7 +86,7 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
 
             try
             {
-                var existingNewsArticle = await _newsArticleService.GetNewsArticleByIdAsync(id);
+                var existingNewsArticle = await _newsArticleService.GetNewsArticleByIdAsync(id, includes: q => q.Include(na => na.NewsTags));
                 if (existingNewsArticle == null)
                 {
                     return NotFound("News article not found.");
@@ -90,16 +96,18 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
                 if (newsArticleDto.NewsContent != null) existingNewsArticle.NewsContent = newsArticleDto.NewsContent;
                 if (newsArticleDto.NewsStatus.HasValue) existingNewsArticle.NewsStatus = newsArticleDto.NewsStatus.Value;
                 if (newsArticleDto.CategoryId != null) existingNewsArticle.CategoryId = newsArticleDto.CategoryId;
-                //if (newsArticleDto.CreatedById != null) existingNewsArticle.CreatedById = newsArticleDto.CreatedById;
 
+                if (newsArticleDto.TagIds != null)
+                {
+                    existingNewsArticle.NewsTags = newsArticleDto.TagIds.Select(tagId => new NewsTag { TagId = tagId, NewsArticleId = existingNewsArticle.Id }).ToList();
+                }
 
-                // Pass the updated entity 
-                await _newsArticleService.UpdateNewsArticleAsync(existingNewsArticle, userId);
+                await _newsArticleService.UpdateNewsArticleAsync(existingNewsArticle, userId, newsArticleDto.CreatedById);
                 return NoContent();
             }
-            catch (UnauthorizedAccessException ex) // Catch specific auth errors
+            catch (UnauthorizedAccessException ex)
             {
-                return Forbid(ex.Message); // Return 403 Forbidden
+                return Forbid(ex.Message);
             }
             catch (Exception ex)
             {
@@ -108,8 +116,8 @@ namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
         }
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin, Staff, Lecture")] 
-        public async Task<IActionResult> Delete(string id)
+        //[Authorize(Roles = "Admin, Staff, Lecturer")]
+        public async Task<IActionResult> Delete([FromODataUri] string id)
         {
             try
             {

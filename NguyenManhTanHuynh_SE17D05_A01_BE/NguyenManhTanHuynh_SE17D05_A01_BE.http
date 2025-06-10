@@ -1,13 +1,13 @@
-@NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress = https://localhost:7223
+﻿@NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress = https://localhost:7223
 
 ### Signup
 POST {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/api/auth/signup
 Content-Type: application/json
 {
-  "accountName": "Huynh",
-  "accountEmail": "nghuynh5079@gmail.com",
+  "accountName": "Tien",
+  "accountEmail": "Tien@gmail.com",
   "password": "123123",
-  "accountRole": 1
+  "accountRole": 2
 }
 ### Login
 POST {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/api/auth/login
@@ -21,25 +21,99 @@ Content-Type: application/json
 ### Get All
 GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts
 ### Get ID
-GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts('8908368e-4567-460c-bba9-38b60d8f225f')
+GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts('3fd6b7d0-2942-498d-8d06-65b906b53aa2')
 ### Create Accuont
 POST {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts
 Content-Type: application/json
 
 {
-  "AccountName": "Lecturer Jane",
-  "AccountEmail": "jane.lecturer@fu.edu.vn",
+  "AccountName": "thi",
+  "AccountEmail": "thi.lecturer@fu.edu.vn",
   "AccountPassword": "123123",
   "AccountRole": 2
 }
 ###
-PUT {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts('cd79ac40-fcf7-4682-acd1-3b1d6b9ee57b')
+PUT {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts('3fd6b7d0-2942-498d-8d06-65b906b53aa2')
 Content-Type: application/json
 {
-  "Id": "cd79ac40-fcf7-4682-acd1-3b1d6b9ee57b",
-  "AccountName": "Updated Lecturer Jane",
-  "AccountEmail": "jane.lecturer@fu.edu.vn",
+  "Id": "3fd6b7d0-2942-498d-8d06-65b906b53aa2",
+  "AccountName": "NguyenHuynh",
+  "AccountEmail": "nghuynh5079@gmail.com",
   "AccountPassword": "123456",
-  "AccountRole": 2,
+  "AccountRole": 2
 }
+###
+DELETE {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Accounts/9341e65d-799c-4187-8290-1246dc624776
+###
+###
+###Get all tag
+GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Tags
+### Get id tag
+GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Tags('9e14a170-6a7e-4532-974d-e1020d1ee00f')
+### Create tag
+POST {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Tags
+Content-Type: application/json
+
+{
+  "TagName": "Hello",
+  "Note": "Howw are u?"
+}
+### Update Tag
+PUT {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Tags('9e14a170-6a7e-4532-974d-e1020d1ee00f')
+Content-Type: application/json
+
+{
+  "TagName": "Huynh Updated", 
+  "Note": "This is my updated note." 
+}
+### delete tag 
+DELETE {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Tags('9e14a170-6a7e-4532-974d-e1020d1ee00f')
+### Get all cate
+GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Categories
+### Get cate ID
+GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/Categories('8efda896-9075-4198-8c2d-e6f42b5fb79a')
+### Create cate
+POST {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/categories
+Content-Type: application/json
+{
+  //CreateCategoryDto
+}
+### Update Cate
+PUT {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/categories/{id}
+Content-Type: application/json
+
+{
+  //UpdateCategoryDto
+}
+###DEl Cate
+DELETE {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/categories/{id}
+###
+###
+###Get News all
+GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/NewsArticles
+### Get news by ID
+GET {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/NewsArticles('009c3ae2-bbcd-448f-b574-c16a12872c67')
+### Create News Article
+@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjNmZDZiN2QwLTI5NDItNDk4ZC04ZDA2LTY1YjkwNmI1M2FhMiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6Im5naHV5bmg1MDc5QGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkxlY3R1cmVyIiwiZXhwIjoxNzQ5MTg2ODY4LCJpc3MiOiJGVU5ld3NNYW5hZ2VtZW50U3lzdGVtIiwiYXVkIjoiRlVOZXdzTWFuYWdlbWVudFN5c3RlbSJ9.QXoBVni87rHSbNzCXr8L8viWivRY9aVsGvsuFRJRX04
+POST {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/NewsArticles
+Content-Type: application/json
+Authorization: Bearer {{token}}
+{
+  "NewsTitle": "Latest University Research Findings",
+  "NewsContent": "Discover the groundbreaking research conducted by our faculty on sustainable energy solutions. This article highlights key findings and future implications.",
+  "NewsStatus": true,
+  "CategoryId": "32b014f3-ca61-4687-bc62-d305dc29ff5b",
+  "TagIds": [
+    "320743f5-a2df-4b92-bade-a92011fb5f19",
+    "39f45f39-01c6-4e1a-96d9-c0a180deda1f"
+  ]
+}
+###
+PUT {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/NewsArticles('')
+Content-Type: application/json
+{
+  //UpdateNewsArticleDto
+}
+###
+DELETE {{NguyenManhTanHuynh_SE17D05_A01_BE_HostAddress}}/odata/NewsArticles('')
 ###

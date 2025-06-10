@@ -1644,6 +1644,19 @@
           }
         }
       },
+      "BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4439,6 +4452,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLayer/BusinessLayer.csproj",
+      "msbuildProject": "../BusinessLayer/BusinessLayer.csproj"
+    },
     "DataLayer/1.0.0": {
       "type": "project",
       "path": "../DataLayer/DataLayer.csproj",
@@ -4448,6 +4466,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "BCrypt.Net-Core >= 1.6.0",
+      "BusinessLayer >= 1.0.0",
       "DataLayer >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.*",
       "Microsoft.AspNetCore.OData >= 8.0.*",
@@ -4490,6 +4509,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\BusinessLayer\\BusinessLayer.csproj"
+            },
             "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\DataLayer.csproj": {
               "projectPath": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\NguyenManhTanHuynh_SE17D05_A01_BE\\DataLayer\\DataLayer.csproj"
             }

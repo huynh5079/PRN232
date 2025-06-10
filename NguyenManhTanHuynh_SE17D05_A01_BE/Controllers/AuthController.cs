@@ -1,19 +1,18 @@
-﻿// NguyenManhTanHuynh_SE17D05_A01_BE/Controllers/AuthController.cs
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using DataLayer.Entities;
-using DataLayer.Repositories; // Changed namespace
-using DataLayer.Services;   // Changed namespace (for IAccountService)
-using DataLayer.Utilities;  // Changed namespace (for PasswordHasher)
-using NguyenManhTanHuynh_SE17D05_A01_BE.DTOs; // For DTOs
+using BusinessLayer.Repositories; 
+using BusinessLayer.Services;  
+using DataLayer.Utilities; 
+using DataLayer.DTOs; 
 
 namespace NguyenManhTanHuynh_SE17D05_A01_BE.Controllers
 {
     [Route("api/auth")]
-    [ApiController] // Always good to add for API controllers
+    [ApiController]
     public class AuthController : ControllerBase
     {
         private readonly IConfiguration _configuration;

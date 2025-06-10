@@ -9,6 +9,7 @@
       "NguyenManhTanHuynh_SE17D05_A01_BE/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Core": "1.6.0",
+          "BusinessLayer": "1.0.0",
           "DataLayer": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.16",
           "Microsoft.AspNetCore.OData": "8.0.12",
@@ -1005,6 +1006,17 @@
           }
         }
       },
+      "BusinessLayer/1.0.0": {
+        "dependencies": {
+          "DataLayer": "1.0.0"
+        },
+        "runtime": {
+          "BusinessLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "DataLayer/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Core": "1.6.0",
@@ -1613,6 +1625,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "BusinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DataLayer/1.0.0": {
       "type": "project",

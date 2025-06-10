@@ -6,8 +6,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using DataLayer.Data;
 using DataLayer.Entities;
-using DataLayer.Repositories;
-using DataLayer.Services;
+using BusinessLayer.Repositories;
+using BusinessLayer.Services;
 using Microsoft.OData.Edm;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -57,16 +57,16 @@ builder.Services.AddLogging(logging =>
     logging.AddDebug();
 });
 
-builder.Services.AddEndpointsApiExplorer(); 
-builder.Services.AddSwaggerGen(); 
+//builder.Services.AddEndpointsApiExplorer(); 
+//builder.Services.AddSwaggerGen(); 
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger(); 
-    app.UseSwaggerUI();
+    //app.UseSwagger(); 
+    //app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
