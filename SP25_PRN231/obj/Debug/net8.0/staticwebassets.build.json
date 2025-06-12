@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "s1TFgmZyPL2NunZUA19z1J81R8UFvG3VZUPJLF3E5y0=",
+  "Source": "SP25_PRN231",
+  "BasePath": "_content/SP25_PRN231",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

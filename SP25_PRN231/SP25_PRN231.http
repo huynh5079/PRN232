@@ -1,0 +1,33 @@
+﻿@SP25_PRN231_HostAddress = https://localhost:7144
+###
+GET {{SP25_PRN231_HostAddress}}/api/courses
+###
+@id=1
+GET {{SP25_PRN231_HostAddress}}/api/courses/{{id}}
+###
+POST {{SP25_PRN231_HostAddress}}/api/courses
+Content-Type: application/json
+
+{
+  "title": "Chủ tịch Hồ Chí Minh vĩ đại",
+  "description": "Đảng cộng sản Việt Nam muôn năm",
+  "price": 999.999,
+  "categoryId": 1,
+  "userId": 1
+}
+###
+@id=7
+PUT {{SP25_PRN231_HostAddress}}/api/courses/{{id}}
+Content-Type: application/json
+{
+  "title": "Chủ tịch Hồ Chí Minh muôn năm",
+  "description": "Đảng cộng sản Việt Nam muôn năm",
+  "price": 999.999,
+  "categoryId": 1,
+  "userId": 1
+}
+###
+@id=8
+DELETE {{SP25_PRN231_HostAddress}}/api/courses/{{id}}
+###
+

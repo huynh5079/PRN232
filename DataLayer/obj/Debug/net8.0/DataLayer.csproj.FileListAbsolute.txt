@@ -1,0 +1,14 @@
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\bin\Debug\net8.0\DataLayer.deps.json
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\bin\Debug\net8.0\DataLayer.runtimeconfig.json
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\bin\Debug\net8.0\DataLayer.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\bin\Debug\net8.0\DataLayer.pdb
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\obj\Debug\net8.0\DataLayer.csproj.AssemblyReference.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\obj\Debug\net8.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfoInputs.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfo.cs
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\obj\Debug\net8.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\obj\Debug\net8.0\DataLayer.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\obj\Debug\net8.0\refint\DataLayer.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\obj\Debug\net8.0\DataLayer.pdb
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\obj\Debug\net8.0\DataLayer.genruntimeconfig.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\SP25_PRN231\DataLayer\obj\Debug\net8.0\ref\DataLayer.dll
