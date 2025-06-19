@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab03_IdentityAjax_eStore", "Lab03_IdentityAjax_eStore\Lab03_IdentityAjax_eStore.csproj", "{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{D475095B-F91A-4116-B114-FED44202BECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{105C0121-39C6-4682-A470-27FECEBE4510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{2447E999-FF87-4A36-A76D-85ED650242B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D475095B-F91A-4116-B114-FED44202BECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D475095B-F91A-4116-B114-FED44202BECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D475095B-F91A-4116-B114-FED44202BECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D475095B-F91A-4116-B114-FED44202BECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105C0121-39C6-4682-A470-27FECEBE4510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105C0121-39C6-4682-A470-27FECEBE4510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105C0121-39C6-4682-A470-27FECEBE4510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105C0121-39C6-4682-A470-27FECEBE4510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2447E999-FF87-4A36-A76D-85ED650242B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2447E999-FF87-4A36-A76D-85ED650242B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2447E999-FF87-4A36-A76D-85ED650242B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2447E999-FF87-4A36-A76D-85ED650242B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

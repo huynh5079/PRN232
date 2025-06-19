@@ -1,0 +1,14 @@
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

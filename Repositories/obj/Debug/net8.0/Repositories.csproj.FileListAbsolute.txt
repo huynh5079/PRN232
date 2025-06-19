@@ -1,0 +1,15 @@
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\bin\Debug\net8.0\DataAccess.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\bin\Debug\net8.0\DataAccess.pdb
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\FPT\2025 SUMMMER\PRN232\Code\Lab03_IdentityAjax_eStore\Repositories\obj\Debug\net8.0\ref\Repositories.dll
