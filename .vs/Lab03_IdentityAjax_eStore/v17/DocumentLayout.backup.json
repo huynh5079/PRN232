@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab03_identityajax_estore\\lab03_identityajax_estore\\controllers\\auth\\authcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|solutionrelative:lab03_identityajax_estore\\controllers\\auth\\authcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab03_identityajax_estore\\lab03_identityajax_estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|solutionrelative:lab03_identityajax_estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab03_identityajax_estore\\lab03_identityajax_estore\\lab03_identityajax_estore.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|solutionrelative:lab03_identityajax_estore\\lab03_identityajax_estore.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab03_identityajax_estore\\lab03_identityajax_estore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|solutionrelative:lab03_identityajax_estore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab03_identityajax_estore\\lab03_identityajax_estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|solutionrelative:lab03_identityajax_estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab03_identityajax_estore\\lab03_identityajax_estore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|solutionrelative:lab03_identityajax_estore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|d:\\fpt\\2025 summmer\\prn232\\code\\lab03_identityajax_estore\\lab03_identityajax_estore\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2CAD415-7A8E-4E53-86EE-05DE15202ED1}|Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.csproj|solutionrelative:lab03_identityajax_estore\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Lab03_IdentityAjax_eStore\\Controllers\\ProductsController.cs",
               "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Lab03_IdentityAjax_eStore\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T17:28:27.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController .cs",
-              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\Controllers\\Auth\\AuthController .cs",
-              "RelativeDocumentMoniker": "Lab03_IdentityAjax_eStore\\Controllers\\Auth\\AuthController .cs",
-              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\Controllers\\Auth\\AuthController .cs",
-              "RelativeToolTip": "Lab03_IdentityAjax_eStore\\Controllers\\Auth\\AuthController .cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T17:27:43.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\Program.cs",
-              "RelativeDocumentMoniker": "Lab03_IdentityAjax_eStore\\Program.cs",
-              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\Program.cs",
-              "RelativeToolTip": "Lab03_IdentityAjax_eStore\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T17:21:43.837Z",
+              "WhenOpened": "2025-06-20T02:52:07.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\appsettings.json",
-              "RelativeDocumentMoniker": "Lab03_IdentityAjax_eStore\\appsettings.json",
-              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\appsettings.json",
-              "RelativeToolTip": "Lab03_IdentityAjax_eStore\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-19T17:21:43.092Z",
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Lab03_IdentityAjax_eStore\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "Lab03_IdentityAjax_eStore\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T02:51:33.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\Program.cs",
+              "RelativeDocumentMoniker": "Lab03_IdentityAjax_eStore\\Program.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\Program.cs",
+              "RelativeToolTip": "Lab03_IdentityAjax_eStore\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T02:48:24.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lab03_IdentityAjax_eStore.http",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.http",
+              "RelativeDocumentMoniker": "Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.http",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Code\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.http",
+              "RelativeToolTip": "Lab03_IdentityAjax_eStore\\Lab03_IdentityAjax_eStore.http",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswEAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-20T02:43:58.901Z",
               "EditorCaption": ""
             }
           ]
