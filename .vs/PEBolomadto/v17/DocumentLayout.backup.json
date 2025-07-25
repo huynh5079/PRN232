@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\presentation\\pages\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|solutionrelative:presentation\\pages\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\presentation\\pages\\book\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|solutionrelative:presentation\\pages\\book\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\presentation\\pages\\auth\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|solutionrelative:presentation\\pages\\auth\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|solutionrelative:presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\presentation\\models\\paginationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|solutionrelative:presentation\\models\\paginationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\presentation\\models\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|solutionrelative:presentation\\models\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\presentation\\models\\paginatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|solutionrelative:presentation\\models\\paginatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\presentation\\pages\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|solutionrelative:presentation\\pages\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D54588B8-5FB8-4807-A031-FEC5D74E50DF}|PEBolomadto\\PEBolomadto.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\pebolomadto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D54588B8-5FB8-4807-A031-FEC5D74E50DF}|PEBolomadto\\PEBolomadto.csproj|solutionrelative:pebolomadto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\presentation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A474A5DF-91E2-4FA3-B485-87F73476C817}|Presentation\\Presentation.csproj|solutionrelative:presentation\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaginatedResponse.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Models\\PaginatedResponse.cs",
+              "RelativeDocumentMoniker": "Presentation\\Models\\PaginatedResponse.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Models\\PaginatedResponse.cs",
+              "RelativeToolTip": "Presentation\\Models\\PaginatedResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T12:52:56.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Presentation\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T12:48:52.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Pages\\Auth\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Presentation\\Pages\\Auth\\Index.cshtml.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Pages\\Auth\\Index.cshtml.cs",
+              "RelativeToolTip": "Presentation\\Pages\\Auth\\Index.cshtml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T12:44:51.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Pages\\Book\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Presentation\\Pages\\Book\\Index.cshtml.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Pages\\Book\\Index.cshtml.cs",
+              "RelativeToolTip": "Presentation\\Pages\\Book\\Index.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA4wBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T12:44:46.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaginationResult.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Models\\PaginationResult.cs",
+              "RelativeDocumentMoniker": "Presentation\\Models\\PaginationResult.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Models\\PaginationResult.cs",
+              "RelativeToolTip": "Presentation\\Models\\PaginationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T14:07:44.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Pages\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\Pages\\Book\\Index.cshtml",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Pages\\Book\\Index.cshtml",
+              "RelativeToolTip": "Presentation\\Pages\\Book\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T12:41:58.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:45:24.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\appsettings.json",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\appsettings.json",
+              "RelativeToolTip": "Presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T13:38:49.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookDTO.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Models\\BookDTO.cs",
+              "RelativeDocumentMoniker": "Presentation\\Models\\BookDTO.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Models\\BookDTO.cs",
+              "RelativeToolTip": "Presentation\\Models\\BookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:47:16.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\PEBolomadto\\appsettings.json",
+              "RelativeDocumentMoniker": "PEBolomadto\\appsettings.json",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\PEBolomadto\\appsettings.json",
+              "RelativeToolTip": "PEBolomadto\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T12:56:17.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Pages\\Auth\\Index.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\Pages\\Auth\\Index.cshtml",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Presentation\\Pages\\Auth\\Index.cshtml",
+              "RelativeToolTip": "Presentation\\Pages\\Auth\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T12:42:05.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

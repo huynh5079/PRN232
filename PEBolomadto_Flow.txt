@@ -1,0 +1,106 @@
+- Create web api project PEBolomadto
+- Create Class lib project in PEBolomadto solution: DataAccess, Business
+-----------------------------------------------------------------------------------------------------------------------------
+- Connectionstring, program connect string config
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=local;Database=PEBolomadtoDB;Trusted_Connection=True;TrustServerCertificate=True;"
+  }
+}
+-----------------------------------------------------------------------------------------------------------------------------
+- dotnet add package 
+(DataLayer)
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.AspNetCore.OData
+Microsoft.EntityFrameworkCore.Design
+Microsoft.AspNetCore.Authentication.JwtBearer
+(API)
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Tool
+Microsoft.EntityFrameworkCore.Design
+(Business)
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 12.0.1
+dotnet add package AutoMapper --version 12.0.1
+dotnet add package BCrypt.Net-Next
+
+-----------------------------------------------------------------------------------------------------------------------------
+- DB first: dotnet ef dbcontext scaffold "Server=localhost;Database=PEBolomadtoDB;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -p DataAccess -o Entities --context-dir Entities -c DatabaseContext -f
+-----------------------------------------------------------------------------------------------------------------------------
+- Cóp Repo
+- DT0s trong business
+- Tạo Service
+- Mapping Profile
+- Tạo controller
+- 
+- // Add DbContext
+builder.Services.AddDbContext<DatabaseContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Register services
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IBookService, BookService>();
+
+// Register AutoMapper
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+-----------------------------------------------------------------------------------------------------------------------------
+- Properties/launchSettings.json chỉnh cổng lại: 
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5079",<--------------
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7777;http://localhost:5079", <--------------
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+- Vào Razor page appsetting: 
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ApiBaseUrl": "https://localhost:7777"
+}
+-----------------------------------------------------------------------------------------------------------------------------
+- Thêm CORs cho API (dùng fetch trong js): 
+// CORS 
+builder.Services.AddCors();
+// Add DbContext
+...
+app.UseCors(policy =>
+    policy.AllowAnyOrigin()
+          .AllowAnyMethod()
+          .AllowAnyHeader());
+app.UseHttpsRedirection();
+...
+-----------------------------------------------------------------------------------------------------------------------------
+- Tạo Models folder và model để đăng nhập
+- Tạo Razor Page, theo folder
+- Sửa _Layout.cshtml trong Share
+- // IHttpClientFactory
+builder.Services.AddHttpClient("ApiClient", client =>
+{
+    client.BaseAddress = new Uri(builder.Configuration["ApiBaseUrl"]);
+});

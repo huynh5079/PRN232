@@ -1,0 +1,17 @@
+﻿@page
+@model Presentation.Pages.Auth.IndexModel
+@{
+    ViewData["Title"] = "Login";
+}
+<h2>Login</h2>
+<form method="post">
+    <label>Email</label>
+    <input type="email" name="Email" required />
+    <label>Password</label>
+    <input type="password" name="Password" required />
+    <button type="submit">Login</button>
+</form>
+@if (Model.Message != null)
+{
+    <p style="color:red;">@Model.Message</p>
+}

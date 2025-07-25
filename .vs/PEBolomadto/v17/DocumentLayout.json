@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D54588B8-5FB8-4807-A031-FEC5D74E50DF}|PEBolomadto\\PEBolomadto.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\pebolomadto\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D54588B8-5FB8-4807-A031-FEC5D74E50DF}|PEBolomadto\\PEBolomadto.csproj|solutionrelative:pebolomadto\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5277CFA2-CCC1-4FEB-BA29-D600C8BBB0A2}|Business\\Business.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\business\\dtos\\bookfilterandsearchrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5277CFA2-CCC1-4FEB-BA29-D600C8BBB0A2}|Business\\Business.csproj|solutionrelative:business\\dtos\\bookfilterandsearchrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5277CFA2-CCC1-4FEB-BA29-D600C8BBB0A2}|Business\\Business.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\business\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5277CFA2-CCC1-4FEB-BA29-D600C8BBB0A2}|Business\\Business.csproj|solutionrelative:business\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5277CFA2-CCC1-4FEB-BA29-D600C8BBB0A2}|Business\\Business.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\business\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5277CFA2-CCC1-4FEB-BA29-D600C8BBB0A2}|Business\\Business.csproj|solutionrelative:business\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D54588B8-5FB8-4807-A031-FEC5D74E50DF}|PEBolomadto\\PEBolomadto.csproj|d:\\fpt\\2025 summmer\\prn232\\slides_lab_assignment\\pe\\pebolomadto\\pebolomadto\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D54588B8-5FB8-4807-A031-FEC5D74E50DF}|PEBolomadto\\PEBolomadto.csproj|solutionrelative:pebolomadto\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\PEBolomadto\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PEBolomadto\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\PEBolomadto\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PEBolomadto\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T14:04:52.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookFilterAndSearchRequestDto.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Business\\DTOs\\BookFilterAndSearchRequestDto.cs",
+              "RelativeDocumentMoniker": "Business\\DTOs\\BookFilterAndSearchRequestDto.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Business\\DTOs\\BookFilterAndSearchRequestDto.cs",
+              "RelativeToolTip": "Business\\DTOs\\BookFilterAndSearchRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T14:00:48.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Business\\DTOs\\BookDto.cs",
+              "RelativeDocumentMoniker": "Business\\DTOs\\BookDto.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Business\\DTOs\\BookDto.cs",
+              "RelativeToolTip": "Business\\DTOs\\BookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T14:00:44.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Business\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\BookService.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\Business\\Services\\BookService.cs",
+              "RelativeToolTip": "Business\\Services\\BookService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T14:00:02.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\PEBolomadto\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "PEBolomadto\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\FPT\\2025 SUMMMER\\PRN232\\Slides_Lab_Assignment\\PE\\PEBolomadto\\PEBolomadto\\Controllers\\BookController.cs",
+              "RelativeToolTip": "PEBolomadto\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:58:28.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

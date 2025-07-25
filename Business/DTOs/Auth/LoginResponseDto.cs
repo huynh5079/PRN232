@@ -1,0 +1,8 @@
+﻿namespace Business.DTOs.Auth
+{
+    public class LoginResponseDto
+    {
+        public int UserId { get; set; }
+        public string Role { get; set; } = string.Empty;
+    }
+}

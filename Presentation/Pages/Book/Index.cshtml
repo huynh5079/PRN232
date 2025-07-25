@@ -1,0 +1,34 @@
+﻿@page
+@model Presentation.Pages.Book.IndexModel
+@{
+    ViewData["Title"] = "Book Management";
+}
+
+<h2>Book List</h2>
+
+@if (Model.Books.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Assigned To</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model.Books)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@(book.AssignedToEmail ?? "N/A")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No books found.</p>
+}

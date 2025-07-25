@@ -1,0 +1,15 @@
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\bin\Debug\net8.0\Business.deps.json
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\bin\Debug\net8.0\Business.dll
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\bin\Debug\net8.0\Business.pdb
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\bin\Debug\net8.0\DataAccess.dll
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\bin\Debug\net8.0\DataAccess.pdb
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\obj\Debug\net8.0\Business.dll
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\obj\Debug\net8.0\refint\Business.dll
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\obj\Debug\net8.0\Business.pdb
+D:\FPT\2025 SUMMMER\PRN232\Slides_Lab_Assignment\PE\PEBolomadto\Business\obj\Debug\net8.0\ref\Business.dll
